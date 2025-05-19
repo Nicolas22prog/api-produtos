@@ -1,0 +1,44 @@
+# Ignore build output folders
+/build/
+/target/
+
+# Ignore NetBeans project files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Ignore Maven wrapper files (se usar)
+/.mvn/
+/mvnw
+/mvnw.cmd
+
+# Ignore logs
+*.log
+
+# Ignore IDE/editor specific files
+*.iml
+*.ipr
+*.iws
+.idea/
+*.class
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Eclipse files (caso use)
+/.settings/
+/.project
+.classpath
+
+# Ignore Jakarta/Java EE specific folders
+/out/
+
+# Ignore generated files (ex: generated sources)
+/generated-sources/
+
+# Ignore user-specific settings
+*.user
+
