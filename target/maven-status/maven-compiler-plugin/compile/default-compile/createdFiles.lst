@@ -2,7 +2,6 @@ com\mycompany\api\de\cadastro\ProductService.class
 com\mycompany\api\de\cadastro\JakartaRestConfiguration.class
 com\mycompany\api\de\cadastro\resources\JakartaEE11Resource.class
 com\mycompany\api\de\cadastro\DemoApplication.class
-com\mycompany\api\de\cadastro\HelloResource.class
 com\mycompany\api\de\cadastro\ProductResource.class
+com\mycompany\api\de\cadastro\ProductBean.class
 com\mycompany\api\de\cadastro\Product.class
-com\mycompany\api\de\cadastro\ResponseResource.class
