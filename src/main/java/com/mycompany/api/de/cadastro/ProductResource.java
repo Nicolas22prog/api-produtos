@@ -27,4 +27,7 @@ public class ProductResource {
         productService.salvar(product);
         return Response.status(Response.Status.CREATED).entity(product).build();
     }
+    
+    
+   
 }

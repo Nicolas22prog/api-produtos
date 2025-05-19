@@ -36,8 +36,12 @@ public class ProductManagedBean {
     }
     
     public String salvar() {
-        productBean.salvar();
-        product = new Product();
+        productBean.salvar(product);
+        product = new Product();  // limpa o formulário
         return "index?faces-redirect=true";
+    }
+    
+    public void remover(Product product) {
+        productBean.remover(product);
     }
 }

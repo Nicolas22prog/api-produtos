@@ -11,12 +11,13 @@
             <h:panelGrid columns="2">
                 Nome: <h:inputText value="#{productManagedBean.product.nome}" />
                 Preço: <h:inputText value="#{productManagedBean.product.preco}" />
-                
+                Quantidade: <h:inputText value="#{productManagedBean.product.quantidade}"/>
                 <h:commandButton value="Salvar" action="#{productManagedBean.salvar}"/>                
             </h:panelGrid>
         </h:form>
         <h2>Listar Produtos</h2>
-        <h:dataTable value="#{productManagedBean.product}" var="p">
+        <h:form>
+        <h:dataTable value="#{productManagedBean.produtos}" var="p" border="1">
             <h:column>
                 <f:facet name="header">ID</f:facet>
                 #{p.id}
@@ -29,6 +30,16 @@
                 <f:facet name="header">Preço</f:facet>
                 #{p.preco}
             </h:column>
+            <h:column>
+                <f:facet name="header">Quantidade</f:facet>
+                #{p.quantidade}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Ações</f:facet>
+                <h:commandButton value="Excluir" action="${productManagedBean.remover(p)}"
+                                 onclick="returnconfirm('Tem certeza que deseja excluir?');"/>
+            </h:column>
         </h:dataTable>
+        </h:form>
     </h:body>
 </html>

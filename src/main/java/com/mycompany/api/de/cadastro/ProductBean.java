@@ -25,9 +25,12 @@ public class ProductBean {
         return em.createQuery("SELECT p FROM Product p", Product.class).getResultList();
     }
 
-    public String salvar() {
+    public void salvar(Product product) {
         em.persist(product);
-        product = new Product(); // limpa o formulário
-        return "index?faces-redirect=true";
+    }
+    
+    public void remover (Product product) {
+      Product p = em.merge(product);
+      em.remove(p);
     }
 }

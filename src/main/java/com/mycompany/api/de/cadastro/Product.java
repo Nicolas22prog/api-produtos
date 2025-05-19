@@ -21,7 +21,7 @@ public class Product {
     
     private String nome;
     private Double preco;
-    
+    private Integer quantidade;
     
     public Long getId(){
         return id;
@@ -47,5 +47,11 @@ public class Product {
         this.preco = preco;
     }
             
+    public Integer getQuantidade() {
+        return quantidade;
+    }
     
+    public void setQuantidade( Integer quantidade) {
+        this.quantidade=quantidade;
+    }
 }
