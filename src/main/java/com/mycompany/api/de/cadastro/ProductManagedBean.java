@@ -5,9 +5,10 @@
 package com.mycompany.api.de.cadastro;
 
 
-import jakarta.enterprise.context.RequestScoped;
+import jakarta.faces.view.ViewScoped;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -15,12 +16,13 @@ import java.util.List;
  * @author nicol
  */
 @Named
-@RequestScoped
-public class ProductManagedBean {
+@ViewScoped
+public class ProductManagedBean implements Serializable {
     
     @Inject
     private ProductBean productBean;
     private Product product = new Product();
+    private Product produtoSelecionado;
     
     public Product getProduct() {
         return product;
@@ -44,4 +46,26 @@ public class ProductManagedBean {
     public void remover(Product product) {
         productBean.remover(product);
     }
+    
+    public String editar(Product produto) {
+        System.out.println("Editar produto :" +produto.getId());
+        this.produtoSelecionado=produto;
+        return "editar.xhtml?faces-redirect=true";
+    }
+    
+    public String salvarEdicao() {
+        productBean.editar(produtoSelecionado);
+        return "index?faces-redirect=true";
+    }
+    
+        
+    public Product getProdutoSelecionado () {
+        return produtoSelecionado;
+    }
+    
+    public void setProdutoSelecionado(Product produtoSelecionado) {
+        this.produtoSelecionado = produtoSelecionado;
+    }
+    
 }
+

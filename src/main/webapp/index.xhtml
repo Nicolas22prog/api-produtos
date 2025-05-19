@@ -36,8 +36,9 @@
             </h:column>
             <h:column>
                 <f:facet name="header">Ações</f:facet>
-                <h:commandButton value="Excluir" action="${productManagedBean.remover(p)}"
+                <h:commandButton value="Excluir" action="#{productManagedBean.remover(p)}"
                                  onclick="returnconfirm('Tem certeza que deseja excluir?');"/>
+                <h:commandButton value="Editar" action="#{productManagedBean.editar(p)}"/>
             </h:column>
         </h:dataTable>
         </h:form>

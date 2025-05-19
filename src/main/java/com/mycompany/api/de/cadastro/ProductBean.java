@@ -33,4 +33,9 @@ public class ProductBean {
       Product p = em.merge(product);
       em.remove(p);
     }
+    
+    public void editar ( Product produto) {
+        em.merge(product);
+        
+    }
 }
