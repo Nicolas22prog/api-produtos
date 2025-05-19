@@ -3,16 +3,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.api.de.cadastro;
-
-import jakarta.enterprise.context.RequestScoped;
-import jakarta.inject.Named;
+import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import java.util.List;
 
-
-@Named
-@RequestScoped
+@Stateless
 public class ProductBean {
 
     @PersistenceContext
