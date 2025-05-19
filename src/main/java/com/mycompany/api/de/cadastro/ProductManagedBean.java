@@ -12,10 +12,6 @@ import jakarta.inject.Named;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- *
- * @author nicol
- */
 @Named
 @SessionScoped
 public class ProductManagedBean implements Serializable {
@@ -40,7 +36,7 @@ public class ProductManagedBean implements Serializable {
     
     public String salvar() {
         productBean.salvar(product);
-        product = new Product();  // limpa o formulário
+        product = new Product();  
         return "index?faces-redirect=true";
     }
     
@@ -48,14 +44,20 @@ public class ProductManagedBean implements Serializable {
         productBean.remover(product);
     }
     
+    
+    public String prepararEdicao(Long id) {
+    this.produtoSelecionado = productBean.buscarPorId(id);
+    return "editar.xhtml?faces-redirect=true";
+}
+    
     public String editar(Product produto) {
-        System.out.println("Editar produto :" +produto.getId());
+        
         this.produtoSelecionado=produto;
         return "editar.xhtml?faces-redirect=true";
     }
     
     public String salvarEdicao() {
-        System.out.println("Salvando edicao para produto ID: " + produtoSelecionado.getId());
+        
         productBean.editar(produtoSelecionado);
         produtoSelecionado = null;
         return "index?faces-redirect=true";

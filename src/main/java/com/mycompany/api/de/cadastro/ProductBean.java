@@ -38,4 +38,9 @@ public class ProductBean {
         em.merge(produto);
         
     }
+    
+    public Product buscarPorId(Long id) {
+    return em.find(Product.class, id);
+}
+
 }
