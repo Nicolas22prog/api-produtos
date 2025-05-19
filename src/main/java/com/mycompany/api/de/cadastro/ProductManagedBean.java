@@ -5,7 +5,8 @@
 package com.mycompany.api.de.cadastro;
 
 
-import jakarta.faces.view.ViewScoped;
+import jakarta.enterprise.context.SessionScoped;
+
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 import java.io.Serializable;
@@ -16,7 +17,7 @@ import java.util.List;
  * @author nicol
  */
 @Named
-@ViewScoped
+@SessionScoped
 public class ProductManagedBean implements Serializable {
     
     @Inject
@@ -54,7 +55,9 @@ public class ProductManagedBean implements Serializable {
     }
     
     public String salvarEdicao() {
+        System.out.println("Salvando edicao para produto ID: " + produtoSelecionado.getId());
         productBean.editar(produtoSelecionado);
+        produtoSelecionado = null;
         return "index?faces-redirect=true";
     }
     
