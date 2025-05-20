@@ -4,11 +4,18 @@ package com.mycompany.api.de.cadastro;
 
 
 import jakarta.enterprise.context.SessionScoped;
-
+import jakarta.faces.application.FacesMessage;
+import jakarta.faces.context.FacesContext;
+import jakarta.servlet.http.Part;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
+import java.io.IOException;
+import java.io.InputStream;
 import java.io.Serializable;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.List;
+
 
 @Named
 @SessionScoped
@@ -18,6 +25,9 @@ public class ProductManagedBean implements Serializable {
     private ProductBean productBean;
     private Product product = new Product();
     private Product produtoSelecionado;
+    private ProductService productService;
+    
+    private Part arquivo;
     
     public Product getProduct() {
         return product;
@@ -70,5 +80,26 @@ public class ProductManagedBean implements Serializable {
         this.produtoSelecionado = produtoSelecionado;
     }
     
+    
+    public void importarProdutos() {
+        try (InputStream input = arquivo.getInputStream()) {
+            String caminhoTemp = System.getProperty("java.io.tmpdir")+"/"+arquivo.getSubmittedFileName();
+            Files.copy(input, Paths.get(caminhoTemp));
+            productService.importarProdutos(caminhoTemp);
+             FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Sucesso", "Produtos importados com sucesso!"));
+        } catch(IOException e) {
+            FacesContext.getCurrentInstance().addMessage(null, 
+                    new FacesMessage(FacesMessage.SEVERITY_ERROR,"Erro","Falha ao importar: " +e.getMessage()));
+            
+        
+        } 
+        
+    }
+    public Part getArquivo() {
+        return arquivo;
+    }
+    public void setArquivo(Part arquivo){
+        this.arquivo=arquivo;
+    }
 }
 

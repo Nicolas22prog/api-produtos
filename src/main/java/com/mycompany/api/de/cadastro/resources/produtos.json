@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "nome": "Fone Bluetooth X200",
+        "preco": 299.99,
+        "quantidade": 15
+    },
+    {
+        "id": 2,
+        "nome": "Teclado Mecânico Gamer",
+        "preco": 459.5,
+        "quantidade": 22
+    },
+    {
+        "id": 3,
+        "nome": "Cadeira Ergonômica Office",
+        "preco": 799.0,
+        "quantidade": 5
+    },
+    {
+        "id": 4,
+        "nome": "Smartwatch Pro Max",
+        "preco": 1299.9,
+        "quantidade": 12
+    },
+    {
+        "id": 5,
+        "nome": "Caneca Térmica 500ml",
+        "preco": 59.9,
+        "quantidade": 30
+    },
+    {
+        "id": 6,
+        "nome": "Caixa de Som Portátil",
+        "preco": 349.0,
+        "quantidade": 18
+    },
+    {
+        "id": 7,
+        "nome": "Mouse Sem Fio Laser",
+        "preco": 189.9,
+        "quantidade": 25
+    },
+    {
+        "id": 8,
+        "nome": "Monitor Curvo 27\"",
+        "preco": 1799.0,
+        "quantidade": 7
+    },
+    {
+        "id": 9,
+        "nome": "Câmera Digital 20MP",
+        "preco": 2499.99,
+        "quantidade": 4
+    },
+    {
+        "id": 10,
+        "nome": "Smartphone XYZ Ultra",
+        "preco": 3499.9,
+        "quantidade": 10
+    },
+    {
+        "id": 11,
+        "nome": "Tênis Running Pro",
+        "preco": 399.0,
+        "quantidade": 20
+    },
+    {
+        "id": 12,
+        "nome": "Bicicleta Speed 21v",
+        "preco": 2200.5,
+        "quantidade": 3
+    },
+    {
+        "id": 13,
+        "nome": "Livro - Programação Java",
+        "preco": 89.9,
+        "quantidade": 50
+    },
+    {
+        "id": 14,
+        "nome": "Suporte para Notebook",
+        "preco": 129.9,
+        "quantidade": 28
+    },
+    {
+        "id": 15,
+        "nome": "Roteador Wi-Fi 6",
+        "preco": 699.0,
+        "quantidade": 15
+    },
+    {
+        "id": 16,
+        "nome": "Tablet 10\" 128GB",
+        "preco": 999.0,
+        "quantidade": 9
+    },
+    {
+        "id": 17,
+        "nome": "Cafeteira Expresso Compacta",
+        "preco": 499.9,
+        "quantidade": 6
+    },
+    {
+        "id": 18,
+        "nome": "Caixa de Ferramentas",
+        "preco": 159.5,
+        "quantidade": 13
+    },
+    {
+        "id": 19,
+        "nome": "Smart TV 50\" 4K",
+        "preco": 2999.9,
+        "quantidade": 8
+    },
+    {
+        "id": 20,
+        "nome": "Aspirador Robô",
+        "preco": 1099.0,
+        "quantidade": 11
+    },
+    {
+        "id": 21,
+        "nome": "Camiseta Esportiva Dry Fit",
+        "preco": 79.9,
+        "quantidade": 40
+    },
+    {
+        "id": 22,
+        "nome": "Relógio de Pulso Masculino",
+        "preco": 349.0,
+        "quantidade": 16
+    },
+    {
+        "id": 23,
+        "nome": "Geladeira Duplex 450L",
+        "preco": 2999.99,
+        "quantidade": 4
+    },
+    {
+        "id": 24,
+        "nome": "Micro-ondas 30L",
+        "preco": 699.9,
+        "quantidade": 10
+    },
+    {
+        "id": 25,
+        "nome": "Cafeteira Elétrica Moderna",
+        "preco": 199.9,
+        "quantidade": 22
+    },
+    {
+        "id": 26,
+        "nome": "Notebook Gamer 16GB RAM",
+        "preco": 4499.99,
+        "quantidade": 5
+    },
+    {
+        "id": 27,
+        "nome": "Smartphone Básico",
+        "preco": 599.0,
+        "quantidade": 20
+    },
+    {
+        "id": 28,
+        "nome": "Fone de Ouvido Intra-auricular",
+        "preco": 149.9,
+        "quantidade": 25
+    },
+    {
+        "id": 29,
+        "nome": "Tênis Casual Masculino",
+        "preco": 179.99,
+        "quantidade": 30
+    },
+    {
+        "id": 30,
+        "nome": "Mochila Escolar Resistente",
+        "preco": 129.9,
+        "quantidade": 15
+    },
+    {
+        "id": 31,
+        "nome": "Kit de Panelas Antiaderente",
+        "preco": 399.0,
+        "quantidade": 10
+    },
+    {
+        "id": 32,
+        "nome": "Teclado USB",
+        "preco": 89.9,
+        "quantidade": 28
+    },
+    {
+        "id": 33,
+        "nome": "Monitor Gamer 24\" 144Hz",
+        "preco": 1399.99,
+        "quantidade": 7
+    },
+    {
+        "id": 34,
+        "nome": "Fritadeira Elétrica",
+        "preco": 299.0,
+        "quantidade": 12
+    },
+    {
+        "id": 35,
+        "nome": "Câmera de Segurança IP",
+        "preco": 249.9,
+        "quantidade": 20
+    },
+    {
+        "id": 36,
+        "nome": "Caixa de Som Bluetooth",
+        "preco": 199.99,
+        "quantidade": 30
+    },
+    {
+        "id": 37,
+        "nome": "Smartwatch Infantil",
+        "preco": 299.9,
+        "quantidade": 15
+    },
+    {
+        "id": 38,
+        "nome": "Projetor Portátil",
+        "preco": 899.0,
+        "quantidade": 6
+    },
+    {
+        "id": 39,
+        "nome": "Teclado Gamer RGB",
+        "preco": 499.9,
+        "quantidade": 11
+    },
+    {
+        "id": 40,
+        "nome": "Impressora Multifuncional",
+        "preco": 799.0,
+        "quantidade": 8
+    },
+    {
+        "id": 41,
+        "nome": "Mousepad Gamer Grande",
+        "preco": 69.9,
+        "quantidade": 40
+    },
+    {
+        "id": 42,
+        "nome": "Câmera GoPro Hero",
+        "preco": 1999.99,
+        "quantidade": 3
+    },
+    {
+        "id": 43,
+        "nome": "Carregador Wireless",
+        "preco": 129.0,
+        "quantidade": 22
+    },
+    {
+        "id": 44,
+        "nome": "Bicicleta Elétrica",
+        "preco": 3999.9,
+        "quantidade": 4
+    },
+    {
+        "id": 45,
+        "nome": "Tênis Masculino Casual",
+        "preco": 249.99,
+        "quantidade": 25
+    },
+    {
+        "id": 46,
+        "nome": "Camiseta Manga Longa",
+        "preco": 79.9,
+        "quantidade": 35
+    },
+    {
+        "id": 47,
+        "nome": "Livro - Algoritmos",
+        "preco": 99.9,
+        "quantidade": 30
+    },
+    {
+        "id": 48,
+        "nome": "Ventilador de Mesa",
+        "preco": 149.0,
+        "quantidade": 20
+    },
+    {
+        "id": 49,
+        "nome": "Smartphone Gamer",
+        "preco": 3999.0,
+        "quantidade": 10
+    },
+    {
+        "id": 50,
+        "nome": "Caixa de Ferramentas Completa",
+        "preco": 259.99,
+        "quantidade": 15
+    },
+    {
+        "id": 51,
+        "nome": "Notebook Básico",
+        "preco": 1799.9,
+        "quantidade": 7
+    },
+    {
+        "id": 52,
+        "nome": "Teclado Bluetooth",
+        "preco": 199.9,
+        "quantidade": 18
+    },
+    {
+        "id": 53,
+        "nome": "Cafeteira Elétrica Moderna",
+        "preco": 259.9,
+        "quantidade": 14
+    },
+    {
+        "id": 54,
+        "nome": "Headset Gamer 7.1",
+        "preco": 399.99,
+        "quantidade": 12
+    },
+    {
+        "id": 55,
+        "nome": "Caixa de Som 5.1",
+        "preco": 549.0,
+        "quantidade": 6
+    },
+    {
+        "id": 56,
+        "nome": "Livro - Desenvolvimento Web",
+        "preco": 89.9,
+        "quantidade": 28
+    },
+    {
+        "id": 57,
+        "nome": "Mouse Óptico USB",
+        "preco": 79.9,
+        "quantidade": 50
+    },
+    {
+        "id": 58,
+        "nome": "Relógio Digital",
+        "preco": 129.0,
+        "quantidade": 20
+    },
+    {
+        "id": 59,
+        "nome": "Smart TV 32\" HD",
+        "preco": 1299.9,
+        "quantidade": 10
+    },
+    {
+        "id": 60,
+        "nome": "Tablet Android 8\"",
+        "preco": 799.9,
+        "quantidade": 15
+    },
+    {
+        "id": 61,
+        "nome": "Smartphone Médio",
+        "preco": 1299.0,
+        "quantidade": 18
+    },
+    {
+        "id": 62,
+        "nome": "Caixa Térmica 12L",
+        "preco": 199.9,
+        "quantidade": 22
+    },
+    {
+        "id": 63,
+        "nome": "Fone de Ouvido Gamer",
+        "preco": 249.9,
+        "quantidade": 24
+    },
+    {
+        "id": 64,
+        "nome": "Camiseta Regata Masculina",
+        "preco": 59.9,
+        "quantidade": 40
+    },
+    {
+        "id": 65,
+        "nome": "Notebook Ultrafino",
+        "preco": 3999.0,
+        "quantidade": 5
+    },
+    {
+        "id": 66,
+        "nome": "Impressora a Laser",
+        "preco": 899.0,
+        "quantidade": 8
+    },
+    {
+        "id": 67,
+        "nome": "Carregador Portátil 10000mAh",
+        "preco": 149.9,
+        "quantidade": 30
+    },
+    {
+        "id": 68,
+        "nome": "Monitor LED 22\"",
+        "preco": 699.0,
+        "quantidade": 14
+    },
+    {
+        "id": 69,
+        "nome": "Câmera Instantânea",
+        "preco": 499.0,
+        "quantidade": 7
+    },
+    {
+        "id": 70,
+        "nome": "Tênis Corrida Feminino",
+        "preco": 299.99,
+        "quantidade": 19
+    },
+    {
+        "id": 71,
+        "nome": "Bicicleta Mountain Bike",
+        "preco": 3499.99,
+        "quantidade": 3
+    },
+    {
+        "id": 72,
+        "nome": "Cafeteira Espresso Manual",
+        "preco": 549.9,
+        "quantidade": 11
+    },
+    {
+        "id": 73,
+        "nome": "Teclado Gamer Mecânico",
+        "preco": 599.0,
+        "quantidade": 13
+    },
+    {
+        "id": 74,
+        "nome": "Mouse Wireless",
+        "preco": 189.9,
+        "quantidade": 28
+    },
+    {
+        "id": 75,
+        "nome": "Livro - Data Science",
+        "preco": 129.9,
+        "quantidade": 25
+    },
+    {
+        "id": 76,
+        "nome": "Suporte para Celular Veicular",
+        "preco": 79.9,
+        "quantidade": 35
+    },
+    {
+        "id": 77,
+        "nome": "Caixa de Som Bluetooth",
+        "preco": 299.9,
+        "quantidade": 16
+    },
+    {
+        "id": 78,
+        "nome": "Smartwatch Fitness",
+        "preco": 999.0,
+        "quantidade": 9
+    },
+    {
+        "id": 79,
+        "nome": "Monitor 4K 27\"",
+        "preco": 2499.99,
+        "quantidade": 6
+    },
+    {
+        "id": 80,
+        "nome": "Câmera DSLR",
+        "preco": 4999.99,
+        "quantidade": 2
+    },
+    {
+        "id": 81,
+        "nome": "Fone de Ouvido Over-ear",
+        "preco": 349.0,
+        "quantidade": 20
+    },
+    {
+        "id": 82,
+        "nome": "Tênis Casual Feminino",
+        "preco": 199.99,
+        "quantidade": 26
+    },
+    {
+        "id": 83,
+        "nome": "Livro - Machine Learning",
+        "preco": 139.9,
+        "quantidade": 33
+    },
+    {
+        "id": 84,
+        "nome": "Bicicleta Elétrica Compacta",
+        "preco": 4599.9,
+        "quantidade": 4
+    },
+    {
+        "id": 85,
+        "nome": "Smartphone 5G",
+        "preco": 2799.0,
+        "quantidade": 12
+    },
+    {
+        "id": 86,
+        "nome": "Tablet 11\" Pro",
+        "preco": 1999.99,
+        "quantidade": 7
+    },
+    {
+        "id": 87,
+        "nome": "Cafeteira Automática",
+        "preco": 699.0,
+        "quantidade": 10
+    },
+    {
+        "id": 88,
+        "nome": "Teclado USB Compacto",
+        "preco": 99.9,
+        "quantidade": 28
+    },
+    {
+        "id": 89,
+        "nome": "Mouse Gamer RGB",
+        "preco": 229.9,
+        "quantidade": 24
+    },
+    {
+        "id": 90,
+        "nome": "Livro - JavaScript Avançado",
+        "preco": 99.9,
+        "quantidade": 40
+    },
+    {
+        "id": 91,
+        "nome": "Monitor Gamer Curvo 34\"",
+        "preco": 3299.99,
+        "quantidade": 5
+    },
+    {
+        "id": 92,
+        "nome": "Fone Bluetooth Esportivo",
+        "preco": 149.9,
+        "quantidade": 30
+    },
+    {
+        "id": 93,
+        "nome": "Relógio Inteligente",
+        "preco": 899.0,
+        "quantidade": 13
+    },
+    {
+        "id": 94,
+        "nome": "Caixa Acústica 100W",
+        "preco": 399.99,
+        "quantidade": 9
+    },
+    {
+        "id": 95,
+        "nome": "Camiseta Casual Feminina",
+        "preco": 69.9,
+        "quantidade": 40
+    },
+    {
+        "id": 96,
+        "nome": "Notebook para Estudantes",
+        "preco": 2199.0,
+        "quantidade": 11
+    },
+    {
+        "id": 97,
+        "nome": "Suporte para Monitor",
+        "preco": 249.9,
+        "quantidade": 15
+    },
+    {
+        "id": 98,
+        "nome": "Tablet Básico",
+        "preco": 599.0,
+        "quantidade": 18
+    },
+    {
+        "id": 99,
+        "nome": "Fone de Ouvido Inalâmbrico",
+        "preco": 199.99,
+        "quantidade": 20
+    },
+    {
+        "id": 100,
+        "nome": "Cafeteira Elétrica Compacta",
+        "preco": 159.9,
+        "quantidade": 25
+    }
+]

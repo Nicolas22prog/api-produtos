@@ -39,7 +39,11 @@
                 <h:commandButton value="Excluir" action="#{productManagedBean.remover(p)}"
                                  onclick="returnconfirm('Tem certeza que deseja excluir?');"/>
                 <h:commandButton value="Editar" action="#{productManagedBean.prepararEdicao(p.id)}"/>
+                
             </h:column>
+            <h:form>
+                <h:commandButton value="Importar produtos" action="#{productManagedBean.importarProdutos()}"
+            </h:form>
         </h:dataTable>
         </h:form>
     </h:body>

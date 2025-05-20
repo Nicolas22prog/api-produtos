@@ -41,5 +41,4 @@ public class ProductBean {
     public Product buscarPorId(Long id) {
     return em.find(Product.class, id);
 }
-
 }
