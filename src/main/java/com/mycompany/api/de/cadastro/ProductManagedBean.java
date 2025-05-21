@@ -1,26 +1,19 @@
-/* Gerenciador dos metodos da interface JSF2*/
- 
 package com.mycompany.api.de.cadastro;
 
+/* Gerenciador dos metodos da interface JSF2*/
+ 
 
-import com.google.gson.Gson;
+import jakarta.ejb.EJB;
 import jakarta.enterprise.context.SessionScoped;
-import jakarta.inject.Inject;
 import jakarta.inject.Named;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.Serializable;
 import java.util.List;
-
 
 @Named
 @SessionScoped
 public class ProductManagedBean implements Serializable {
     
-    @Inject
+    @EJB
     private ProductBean productBean;
     private Product product = new Product();
     private Product produtoSelecionado;
@@ -68,7 +61,6 @@ public class ProductManagedBean implements Serializable {
         produtoSelecionado = null;
         return "index?faces-redirect=true";
     }
-    
         
     public Product getProdutoSelecionado () {
         return produtoSelecionado;
@@ -79,24 +71,10 @@ public class ProductManagedBean implements Serializable {
     }
     
     public void importarJson() {
-        Gson gson = new Gson();
-        
-        InputStream input = getClass().getClassLoader().getResourceAsStream("produtos.json");
-        
-        if (input != null) {
-           try (InputStreamReader reader = new InputStreamReader(input, "UTF-8")) {
-               Product [] produtos = gson.fromJson(reader, Product[].class);
-               
-               for (Product produto : produtos) {
-                   productBean.salvar(produto);
-               }
-            } catch (Exception e) {
-                e.printStackTrace();
-           }
-           } else {
-            System.out.println("Arquivo json nao encontrado no classpath.");
-        }
+        productBean.importarJson();
     }
     
+    public void deletarTodos () {
+        productBean.deleteAll();
+    }
 }
-

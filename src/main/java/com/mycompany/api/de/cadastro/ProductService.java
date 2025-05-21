@@ -4,6 +4,7 @@
  */
 package com.mycompany.api.de.cadastro;
 
+
 import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
@@ -23,6 +24,9 @@ public class ProductService {
     public void salvar(Product product) {
         em.persist(product);
     }
+
     
     
+    
+   
 }
