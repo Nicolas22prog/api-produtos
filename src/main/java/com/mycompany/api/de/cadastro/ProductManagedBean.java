@@ -3,17 +3,16 @@
 package com.mycompany.api.de.cadastro;
 
 
+import com.google.gson.Gson;
 import jakarta.enterprise.context.SessionScoped;
-import jakarta.faces.application.FacesMessage;
-import jakarta.faces.context.FacesContext;
-import jakarta.servlet.http.Part;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
+import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.Serializable;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.List;
 
 
@@ -27,8 +26,7 @@ public class ProductManagedBean implements Serializable {
     private Product produtoSelecionado;
     private ProductService productService;
     
-    private Part arquivo;
-    
+        
     public Product getProduct() {
         return product;
     }
@@ -80,26 +78,25 @@ public class ProductManagedBean implements Serializable {
         this.produtoSelecionado = produtoSelecionado;
     }
     
+    public void importarJson() {
+        Gson gson = new Gson();
+        
+        InputStream input = getClass().getClassLoader().getResourceAsStream("produtos.json");
+        
+        if (input != null) {
+           try (InputStreamReader reader = new InputStreamReader(input, "UTF-8")) {
+               Product [] produtos = gson.fromJson(reader, Product[].class);
+               
+               for (Product produto : produtos) {
+                   productBean.salvar(produto);
+               }
+            } catch (Exception e) {
+                e.printStackTrace();
+           }
+           } else {
+            System.out.println("Arquivo json nao encontrado no classpath.");
+        }
+    }
     
-    public void importarProdutos() {
-        try (InputStream input = arquivo.getInputStream()) {
-            String caminhoTemp = System.getProperty("java.io.tmpdir")+"/"+arquivo.getSubmittedFileName();
-            Files.copy(input, Paths.get(caminhoTemp));
-            productService.importarProdutos(caminhoTemp);
-             FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Sucesso", "Produtos importados com sucesso!"));
-        } catch(IOException e) {
-            FacesContext.getCurrentInstance().addMessage(null, 
-                    new FacesMessage(FacesMessage.SEVERITY_ERROR,"Erro","Falha ao importar: " +e.getMessage()));
-            
-        
-        } 
-        
-    }
-    public Part getArquivo() {
-        return arquivo;
-    }
-    public void setArquivo(Part arquivo){
-        this.arquivo=arquivo;
-    }
 }
 

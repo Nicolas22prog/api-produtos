@@ -13,6 +13,10 @@
                 Preço: <h:inputText value="#{productManagedBean.product.preco}" />
                 Quantidade: <h:inputText value="#{productManagedBean.product.quantidade}"/>
                 <h:commandButton value="Salvar" action="#{productManagedBean.salvar}"/>                
+            <h:column>                
+                <h:commandButton value="Importar produtos" action="#{productManagedBean.importarJson()}"/>
+            
+            </h:column>
             </h:panelGrid>
         </h:form>
         <h2>Listar Produtos</h2>
@@ -41,9 +45,6 @@
                 <h:commandButton value="Editar" action="#{productManagedBean.prepararEdicao(p.id)}"/>
                 
             </h:column>
-            <h:form>
-                <h:commandButton value="Importar produtos" action="#{productManagedBean.importarProdutos()}"
-            </h:form>
         </h:dataTable>
         </h:form>
     </h:body>

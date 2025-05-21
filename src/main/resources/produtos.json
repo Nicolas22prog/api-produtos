@@ -1,0 +1,6002 @@
+[
+    {
+        "id": 1,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 998.48,
+        "quantidade": 26
+    },
+    {
+        "id": 2,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 561.33,
+        "quantidade": 78
+    },
+    {
+        "id": 3,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 3373.09,
+        "quantidade": 26
+    },
+    {
+        "id": 4,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 529.08,
+        "quantidade": 29
+    },
+    {
+        "id": 5,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 4040.29,
+        "quantidade": 13
+    },
+    {
+        "id": 6,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1632.79,
+        "quantidade": 86
+    },
+    {
+        "id": 7,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 416.92,
+        "quantidade": 10
+    },
+    {
+        "id": 8,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 3164.01,
+        "quantidade": 47
+    },
+    {
+        "id": 9,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 4416.82,
+        "quantidade": 53
+    },
+    {
+        "id": 10,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 2246.76,
+        "quantidade": 57
+    },
+    {
+        "id": 11,
+        "nome": "Livro - Clean Code",
+        "preco": 597.76,
+        "quantidade": 4
+    },
+    {
+        "id": 12,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1178.44,
+        "quantidade": 43
+    },
+    {
+        "id": 13,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 2299.7,
+        "quantidade": 15
+    },
+    {
+        "id": 14,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 165.58,
+        "quantidade": 15
+    },
+    {
+        "id": 15,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 4588.08,
+        "quantidade": 66
+    },
+    {
+        "id": 16,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 4775.86,
+        "quantidade": 84
+    },
+    {
+        "id": 17,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 3245.97,
+        "quantidade": 59
+    },
+    {
+        "id": 18,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 2861.87,
+        "quantidade": 51
+    },
+    {
+        "id": 19,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 4063.72,
+        "quantidade": 3
+    },
+    {
+        "id": 20,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 3529.43,
+        "quantidade": 67
+    },
+    {
+        "id": 21,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 1401.09,
+        "quantidade": 92
+    },
+    {
+        "id": 22,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 3001.24,
+        "quantidade": 21
+    },
+    {
+        "id": 23,
+        "nome": "Livro - Clean Code",
+        "preco": 751.83,
+        "quantidade": 75
+    },
+    {
+        "id": 24,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 284.71,
+        "quantidade": 5
+    },
+    {
+        "id": 25,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 2236.15,
+        "quantidade": 20
+    },
+    {
+        "id": 26,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 957.86,
+        "quantidade": 18
+    },
+    {
+        "id": 27,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 2484.72,
+        "quantidade": 2
+    },
+    {
+        "id": 28,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 2283.74,
+        "quantidade": 34
+    },
+    {
+        "id": 29,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 2693.57,
+        "quantidade": 84
+    },
+    {
+        "id": 30,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 2531.12,
+        "quantidade": 97
+    },
+    {
+        "id": 31,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1673.84,
+        "quantidade": 2
+    },
+    {
+        "id": 32,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 2722.96,
+        "quantidade": 88
+    },
+    {
+        "id": 33,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 3375.33,
+        "quantidade": 36
+    },
+    {
+        "id": 34,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 245.19,
+        "quantidade": 15
+    },
+    {
+        "id": 35,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1583.09,
+        "quantidade": 42
+    },
+    {
+        "id": 36,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 3358.35,
+        "quantidade": 88
+    },
+    {
+        "id": 37,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 772.36,
+        "quantidade": 15
+    },
+    {
+        "id": 38,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 2434.06,
+        "quantidade": 17
+    },
+    {
+        "id": 39,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1460.03,
+        "quantidade": 35
+    },
+    {
+        "id": 40,
+        "nome": "Livro - Clean Code",
+        "preco": 557.05,
+        "quantidade": 68
+    },
+    {
+        "id": 41,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 4858.6,
+        "quantidade": 38
+    },
+    {
+        "id": 42,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 762.38,
+        "quantidade": 69
+    },
+    {
+        "id": 43,
+        "nome": "Cafeteira Elétrica",
+        "preco": 1944.84,
+        "quantidade": 14
+    },
+    {
+        "id": 44,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 712.9,
+        "quantidade": 95
+    },
+    {
+        "id": 45,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 2213.03,
+        "quantidade": 86
+    },
+    {
+        "id": 46,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 4997.34,
+        "quantidade": 90
+    },
+    {
+        "id": 47,
+        "nome": "Cafeteira Elétrica",
+        "preco": 3486.25,
+        "quantidade": 25
+    },
+    {
+        "id": 48,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 3993.6,
+        "quantidade": 40
+    },
+    {
+        "id": 49,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 373.23,
+        "quantidade": 4
+    },
+    {
+        "id": 50,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 4988.58,
+        "quantidade": 48
+    },
+    {
+        "id": 51,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 4503.86,
+        "quantidade": 71
+    },
+    {
+        "id": 52,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 1546.71,
+        "quantidade": 57
+    },
+    {
+        "id": 53,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 4945.45,
+        "quantidade": 97
+    },
+    {
+        "id": 54,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 4312.21,
+        "quantidade": 31
+    },
+    {
+        "id": 55,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 1230.55,
+        "quantidade": 95
+    },
+    {
+        "id": 56,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 2321.93,
+        "quantidade": 76
+    },
+    {
+        "id": 57,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 4750.34,
+        "quantidade": 9
+    },
+    {
+        "id": 58,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 3793.03,
+        "quantidade": 16
+    },
+    {
+        "id": 59,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 4808.34,
+        "quantidade": 86
+    },
+    {
+        "id": 60,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3630.26,
+        "quantidade": 86
+    },
+    {
+        "id": 61,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 668.28,
+        "quantidade": 39
+    },
+    {
+        "id": 62,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 1548.75,
+        "quantidade": 74
+    },
+    {
+        "id": 63,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 1972.77,
+        "quantidade": 51
+    },
+    {
+        "id": 64,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 4566.48,
+        "quantidade": 94
+    },
+    {
+        "id": 65,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 3953.37,
+        "quantidade": 96
+    },
+    {
+        "id": 66,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 2970.16,
+        "quantidade": 18
+    },
+    {
+        "id": 67,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 3311.74,
+        "quantidade": 92
+    },
+    {
+        "id": 68,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 2561.19,
+        "quantidade": 15
+    },
+    {
+        "id": 69,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 261.88,
+        "quantidade": 88
+    },
+    {
+        "id": 70,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 4841.4,
+        "quantidade": 9
+    },
+    {
+        "id": 71,
+        "nome": "Livro - Clean Code",
+        "preco": 37.68,
+        "quantidade": 96
+    },
+    {
+        "id": 72,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 4251.48,
+        "quantidade": 93
+    },
+    {
+        "id": 73,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 3067.32,
+        "quantidade": 6
+    },
+    {
+        "id": 74,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 3194.67,
+        "quantidade": 41
+    },
+    {
+        "id": 75,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 2116.48,
+        "quantidade": 69
+    },
+    {
+        "id": 76,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 24.37,
+        "quantidade": 79
+    },
+    {
+        "id": 77,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 2891.82,
+        "quantidade": 69
+    },
+    {
+        "id": 78,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 1143.54,
+        "quantidade": 37
+    },
+    {
+        "id": 79,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3624.48,
+        "quantidade": 33
+    },
+    {
+        "id": 80,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 3793.57,
+        "quantidade": 18
+    },
+    {
+        "id": 81,
+        "nome": "Livro - Clean Code",
+        "preco": 4622.04,
+        "quantidade": 84
+    },
+    {
+        "id": 82,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 3300.54,
+        "quantidade": 4
+    },
+    {
+        "id": 83,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 4275.63,
+        "quantidade": 10
+    },
+    {
+        "id": 84,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3132.64,
+        "quantidade": 14
+    },
+    {
+        "id": 85,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 2900.03,
+        "quantidade": 82
+    },
+    {
+        "id": 86,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 3221.82,
+        "quantidade": 76
+    },
+    {
+        "id": 87,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 1727.36,
+        "quantidade": 22
+    },
+    {
+        "id": 88,
+        "nome": "Cafeteira Elétrica",
+        "preco": 3498.4,
+        "quantidade": 55
+    },
+    {
+        "id": 89,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 166.24,
+        "quantidade": 63
+    },
+    {
+        "id": 90,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1458.07,
+        "quantidade": 68
+    },
+    {
+        "id": 91,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 470.96,
+        "quantidade": 71
+    },
+    {
+        "id": 92,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 2679.9,
+        "quantidade": 74
+    },
+    {
+        "id": 93,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 1312.1,
+        "quantidade": 73
+    },
+    {
+        "id": 94,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 2235.78,
+        "quantidade": 62
+    },
+    {
+        "id": 95,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 2329.2,
+        "quantidade": 80
+    },
+    {
+        "id": 96,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 3891.67,
+        "quantidade": 52
+    },
+    {
+        "id": 97,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 730.52,
+        "quantidade": 9
+    },
+    {
+        "id": 98,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 2202.05,
+        "quantidade": 63
+    },
+    {
+        "id": 99,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1692.76,
+        "quantidade": 71
+    },
+    {
+        "id": 100,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 3355.41,
+        "quantidade": 91
+    },
+    {
+        "id": 101,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 4373.49,
+        "quantidade": 36
+    },
+    {
+        "id": 102,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 2584.56,
+        "quantidade": 83
+    },
+    {
+        "id": 103,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 3513.46,
+        "quantidade": 21
+    },
+    {
+        "id": 104,
+        "nome": "Livro - Clean Code",
+        "preco": 1231.97,
+        "quantidade": 69
+    },
+    {
+        "id": 105,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 3381.76,
+        "quantidade": 85
+    },
+    {
+        "id": 106,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1919.47,
+        "quantidade": 53
+    },
+    {
+        "id": 107,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 2597.14,
+        "quantidade": 77
+    },
+    {
+        "id": 108,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 502.57,
+        "quantidade": 69
+    },
+    {
+        "id": 109,
+        "nome": "Livro - Clean Code",
+        "preco": 605.85,
+        "quantidade": 79
+    },
+    {
+        "id": 110,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 1843.71,
+        "quantidade": 32
+    },
+    {
+        "id": 111,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 4912.54,
+        "quantidade": 23
+    },
+    {
+        "id": 112,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 2758.5,
+        "quantidade": 70
+    },
+    {
+        "id": 113,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 2073.23,
+        "quantidade": 37
+    },
+    {
+        "id": 114,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 3620.06,
+        "quantidade": 67
+    },
+    {
+        "id": 115,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 4537.42,
+        "quantidade": 61
+    },
+    {
+        "id": 116,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 2659.01,
+        "quantidade": 53
+    },
+    {
+        "id": 117,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 3491.99,
+        "quantidade": 65
+    },
+    {
+        "id": 118,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 552.38,
+        "quantidade": 90
+    },
+    {
+        "id": 119,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 2882.43,
+        "quantidade": 94
+    },
+    {
+        "id": 120,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 1883.23,
+        "quantidade": 36
+    },
+    {
+        "id": 121,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 272.71,
+        "quantidade": 13
+    },
+    {
+        "id": 122,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 2531.84,
+        "quantidade": 73
+    },
+    {
+        "id": 123,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1442.68,
+        "quantidade": 70
+    },
+    {
+        "id": 124,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 4749.28,
+        "quantidade": 12
+    },
+    {
+        "id": 125,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 1544.76,
+        "quantidade": 77
+    },
+    {
+        "id": 126,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 4208.1,
+        "quantidade": 26
+    },
+    {
+        "id": 127,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 4469.6,
+        "quantidade": 45
+    },
+    {
+        "id": 128,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 804.79,
+        "quantidade": 54
+    },
+    {
+        "id": 129,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 3095.2,
+        "quantidade": 83
+    },
+    {
+        "id": 130,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 116.85,
+        "quantidade": 95
+    },
+    {
+        "id": 131,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3849.04,
+        "quantidade": 61
+    },
+    {
+        "id": 132,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 496.99,
+        "quantidade": 11
+    },
+    {
+        "id": 133,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 3267.6,
+        "quantidade": 43
+    },
+    {
+        "id": 134,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1831.19,
+        "quantidade": 11
+    },
+    {
+        "id": 135,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 4442.54,
+        "quantidade": 48
+    },
+    {
+        "id": 136,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 4676.18,
+        "quantidade": 30
+    },
+    {
+        "id": 137,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 2773.08,
+        "quantidade": 43
+    },
+    {
+        "id": 138,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 2696.51,
+        "quantidade": 44
+    },
+    {
+        "id": 139,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 4092.42,
+        "quantidade": 78
+    },
+    {
+        "id": 140,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 3037.83,
+        "quantidade": 42
+    },
+    {
+        "id": 141,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 2472.75,
+        "quantidade": 13
+    },
+    {
+        "id": 142,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 4356.46,
+        "quantidade": 78
+    },
+    {
+        "id": 143,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 929.37,
+        "quantidade": 28
+    },
+    {
+        "id": 144,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 94.64,
+        "quantidade": 78
+    },
+    {
+        "id": 145,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 3299.92,
+        "quantidade": 73
+    },
+    {
+        "id": 146,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 4783.04,
+        "quantidade": 77
+    },
+    {
+        "id": 147,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 280.94,
+        "quantidade": 2
+    },
+    {
+        "id": 148,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 1516.17,
+        "quantidade": 47
+    },
+    {
+        "id": 149,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 1612.54,
+        "quantidade": 54
+    },
+    {
+        "id": 150,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 4373.97,
+        "quantidade": 72
+    },
+    {
+        "id": 151,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 548.69,
+        "quantidade": 25
+    },
+    {
+        "id": 152,
+        "nome": "Livro - Clean Code",
+        "preco": 1550.02,
+        "quantidade": 71
+    },
+    {
+        "id": 153,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 524.8,
+        "quantidade": 37
+    },
+    {
+        "id": 154,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 4019.85,
+        "quantidade": 52
+    },
+    {
+        "id": 155,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 1678.82,
+        "quantidade": 28
+    },
+    {
+        "id": 156,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1003.79,
+        "quantidade": 77
+    },
+    {
+        "id": 157,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 4674.62,
+        "quantidade": 39
+    },
+    {
+        "id": 158,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 3632.45,
+        "quantidade": 71
+    },
+    {
+        "id": 159,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 210.52,
+        "quantidade": 24
+    },
+    {
+        "id": 160,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 3772.35,
+        "quantidade": 37
+    },
+    {
+        "id": 161,
+        "nome": "Livro - Clean Code",
+        "preco": 3482.74,
+        "quantidade": 66
+    },
+    {
+        "id": 162,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 2925.92,
+        "quantidade": 82
+    },
+    {
+        "id": 163,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 4098.91,
+        "quantidade": 62
+    },
+    {
+        "id": 164,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 1755.61,
+        "quantidade": 60
+    },
+    {
+        "id": 165,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 4032.65,
+        "quantidade": 10
+    },
+    {
+        "id": 166,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 3120.22,
+        "quantidade": 52
+    },
+    {
+        "id": 167,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 4498.16,
+        "quantidade": 1
+    },
+    {
+        "id": 168,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3097.87,
+        "quantidade": 6
+    },
+    {
+        "id": 169,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 2806.72,
+        "quantidade": 94
+    },
+    {
+        "id": 170,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 2918.49,
+        "quantidade": 51
+    },
+    {
+        "id": 171,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3745.25,
+        "quantidade": 18
+    },
+    {
+        "id": 172,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 1437.6,
+        "quantidade": 71
+    },
+    {
+        "id": 173,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 2224.55,
+        "quantidade": 2
+    },
+    {
+        "id": 174,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 3442.01,
+        "quantidade": 44
+    },
+    {
+        "id": 175,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 2392.04,
+        "quantidade": 72
+    },
+    {
+        "id": 176,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 3902.21,
+        "quantidade": 30
+    },
+    {
+        "id": 177,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 3350.79,
+        "quantidade": 88
+    },
+    {
+        "id": 178,
+        "nome": "Livro - Clean Code",
+        "preco": 2948.16,
+        "quantidade": 97
+    },
+    {
+        "id": 179,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 2266.15,
+        "quantidade": 8
+    },
+    {
+        "id": 180,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 597.41,
+        "quantidade": 56
+    },
+    {
+        "id": 181,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 664.52,
+        "quantidade": 31
+    },
+    {
+        "id": 182,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 324.22,
+        "quantidade": 75
+    },
+    {
+        "id": 183,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 3241.05,
+        "quantidade": 100
+    },
+    {
+        "id": 184,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 249.33,
+        "quantidade": 80
+    },
+    {
+        "id": 185,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 1903.04,
+        "quantidade": 27
+    },
+    {
+        "id": 186,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 2184.45,
+        "quantidade": 14
+    },
+    {
+        "id": 187,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 4173.62,
+        "quantidade": 80
+    },
+    {
+        "id": 188,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 1513.06,
+        "quantidade": 60
+    },
+    {
+        "id": 189,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 3006.64,
+        "quantidade": 68
+    },
+    {
+        "id": 190,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 3066.83,
+        "quantidade": 52
+    },
+    {
+        "id": 191,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 3090.43,
+        "quantidade": 51
+    },
+    {
+        "id": 192,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 286.01,
+        "quantidade": 25
+    },
+    {
+        "id": 193,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 3066.59,
+        "quantidade": 54
+    },
+    {
+        "id": 194,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 3024.44,
+        "quantidade": 71
+    },
+    {
+        "id": 195,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 1420.9,
+        "quantidade": 11
+    },
+    {
+        "id": 196,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 203.96,
+        "quantidade": 70
+    },
+    {
+        "id": 197,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 3125.84,
+        "quantidade": 63
+    },
+    {
+        "id": 198,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 1283.91,
+        "quantidade": 49
+    },
+    {
+        "id": 199,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 2897.25,
+        "quantidade": 74
+    },
+    {
+        "id": 200,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 2249.99,
+        "quantidade": 27
+    },
+    {
+        "id": 201,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 542.3,
+        "quantidade": 32
+    },
+    {
+        "id": 202,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 4719.96,
+        "quantidade": 52
+    },
+    {
+        "id": 203,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 3398.41,
+        "quantidade": 79
+    },
+    {
+        "id": 204,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 4674.3,
+        "quantidade": 21
+    },
+    {
+        "id": 205,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 2592.56,
+        "quantidade": 17
+    },
+    {
+        "id": 206,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 2277.86,
+        "quantidade": 90
+    },
+    {
+        "id": 207,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 4130.44,
+        "quantidade": 31
+    },
+    {
+        "id": 208,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1480.52,
+        "quantidade": 94
+    },
+    {
+        "id": 209,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 1839.22,
+        "quantidade": 95
+    },
+    {
+        "id": 210,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 2786.86,
+        "quantidade": 49
+    },
+    {
+        "id": 211,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3695.88,
+        "quantidade": 14
+    },
+    {
+        "id": 212,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 69.26,
+        "quantidade": 37
+    },
+    {
+        "id": 213,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 4985.77,
+        "quantidade": 61
+    },
+    {
+        "id": 214,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 2369.29,
+        "quantidade": 25
+    },
+    {
+        "id": 215,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 1426.79,
+        "quantidade": 90
+    },
+    {
+        "id": 216,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3264.4,
+        "quantidade": 42
+    },
+    {
+        "id": 217,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 1326.42,
+        "quantidade": 94
+    },
+    {
+        "id": 218,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 4717.19,
+        "quantidade": 21
+    },
+    {
+        "id": 219,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1349.67,
+        "quantidade": 4
+    },
+    {
+        "id": 220,
+        "nome": "Cafeteira Elétrica",
+        "preco": 2577.5,
+        "quantidade": 83
+    },
+    {
+        "id": 221,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 2655.74,
+        "quantidade": 73
+    },
+    {
+        "id": 222,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 3779.65,
+        "quantidade": 91
+    },
+    {
+        "id": 223,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 2218.5,
+        "quantidade": 75
+    },
+    {
+        "id": 224,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 4261.16,
+        "quantidade": 54
+    },
+    {
+        "id": 225,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 2966.42,
+        "quantidade": 95
+    },
+    {
+        "id": 226,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 832.33,
+        "quantidade": 76
+    },
+    {
+        "id": 227,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 3663.54,
+        "quantidade": 96
+    },
+    {
+        "id": 228,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1386.8,
+        "quantidade": 78
+    },
+    {
+        "id": 229,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 3933.98,
+        "quantidade": 6
+    },
+    {
+        "id": 230,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 4776.44,
+        "quantidade": 2
+    },
+    {
+        "id": 231,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 1400.05,
+        "quantidade": 58
+    },
+    {
+        "id": 232,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 271.12,
+        "quantidade": 49
+    },
+    {
+        "id": 233,
+        "nome": "Cafeteira Elétrica",
+        "preco": 3794.72,
+        "quantidade": 47
+    },
+    {
+        "id": 234,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 1470.83,
+        "quantidade": 30
+    },
+    {
+        "id": 235,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3291.49,
+        "quantidade": 33
+    },
+    {
+        "id": 236,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 4887.69,
+        "quantidade": 31
+    },
+    {
+        "id": 237,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 1838.72,
+        "quantidade": 96
+    },
+    {
+        "id": 238,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 685.79,
+        "quantidade": 38
+    },
+    {
+        "id": 239,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 341.54,
+        "quantidade": 49
+    },
+    {
+        "id": 240,
+        "nome": "Livro - Clean Code",
+        "preco": 4382.41,
+        "quantidade": 51
+    },
+    {
+        "id": 241,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1980.27,
+        "quantidade": 87
+    },
+    {
+        "id": 242,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 2395.43,
+        "quantidade": 76
+    },
+    {
+        "id": 243,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3967.6,
+        "quantidade": 24
+    },
+    {
+        "id": 244,
+        "nome": "Cafeteira Elétrica",
+        "preco": 1461.14,
+        "quantidade": 90
+    },
+    {
+        "id": 245,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 449.37,
+        "quantidade": 41
+    },
+    {
+        "id": 246,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 3289.32,
+        "quantidade": 72
+    },
+    {
+        "id": 247,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 4218.38,
+        "quantidade": 63
+    },
+    {
+        "id": 248,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 2209.4,
+        "quantidade": 89
+    },
+    {
+        "id": 249,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 630.87,
+        "quantidade": 58
+    },
+    {
+        "id": 250,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 2165.59,
+        "quantidade": 86
+    },
+    {
+        "id": 251,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 4283.64,
+        "quantidade": 59
+    },
+    {
+        "id": 252,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 1164.26,
+        "quantidade": 72
+    },
+    {
+        "id": 253,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 47.76,
+        "quantidade": 97
+    },
+    {
+        "id": 254,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 2302.7,
+        "quantidade": 2
+    },
+    {
+        "id": 255,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1101.57,
+        "quantidade": 9
+    },
+    {
+        "id": 256,
+        "nome": "Livro - Clean Code",
+        "preco": 4007.43,
+        "quantidade": 80
+    },
+    {
+        "id": 257,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 1747.31,
+        "quantidade": 21
+    },
+    {
+        "id": 258,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 2932.96,
+        "quantidade": 6
+    },
+    {
+        "id": 259,
+        "nome": "Livro - Clean Code",
+        "preco": 3216.73,
+        "quantidade": 95
+    },
+    {
+        "id": 260,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 457.14,
+        "quantidade": 75
+    },
+    {
+        "id": 261,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 4810.1,
+        "quantidade": 63
+    },
+    {
+        "id": 262,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 1833.64,
+        "quantidade": 23
+    },
+    {
+        "id": 263,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 3717.8,
+        "quantidade": 34
+    },
+    {
+        "id": 264,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 4979.6,
+        "quantidade": 94
+    },
+    {
+        "id": 265,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 940.3,
+        "quantidade": 84
+    },
+    {
+        "id": 266,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3231.95,
+        "quantidade": 1
+    },
+    {
+        "id": 267,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 1385.46,
+        "quantidade": 93
+    },
+    {
+        "id": 268,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 98.67,
+        "quantidade": 99
+    },
+    {
+        "id": 269,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 1881.49,
+        "quantidade": 8
+    },
+    {
+        "id": 270,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 2474.3,
+        "quantidade": 57
+    },
+    {
+        "id": 271,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 2194.13,
+        "quantidade": 49
+    },
+    {
+        "id": 272,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 4114.15,
+        "quantidade": 2
+    },
+    {
+        "id": 273,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 898.06,
+        "quantidade": 74
+    },
+    {
+        "id": 274,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 2907.21,
+        "quantidade": 63
+    },
+    {
+        "id": 275,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 2279.16,
+        "quantidade": 3
+    },
+    {
+        "id": 276,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 359.39,
+        "quantidade": 1
+    },
+    {
+        "id": 277,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3294.41,
+        "quantidade": 30
+    },
+    {
+        "id": 278,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 3799.08,
+        "quantidade": 35
+    },
+    {
+        "id": 279,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 2859.48,
+        "quantidade": 23
+    },
+    {
+        "id": 280,
+        "nome": "Livro - Clean Code",
+        "preco": 257.04,
+        "quantidade": 100
+    },
+    {
+        "id": 281,
+        "nome": "Cafeteira Elétrica",
+        "preco": 1032.49,
+        "quantidade": 66
+    },
+    {
+        "id": 282,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 439.82,
+        "quantidade": 72
+    },
+    {
+        "id": 283,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 2275.19,
+        "quantidade": 8
+    },
+    {
+        "id": 284,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3115.47,
+        "quantidade": 20
+    },
+    {
+        "id": 285,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1244.99,
+        "quantidade": 46
+    },
+    {
+        "id": 286,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1426.4,
+        "quantidade": 76
+    },
+    {
+        "id": 287,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 731.72,
+        "quantidade": 66
+    },
+    {
+        "id": 288,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 763.9,
+        "quantidade": 59
+    },
+    {
+        "id": 289,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 1165.1,
+        "quantidade": 81
+    },
+    {
+        "id": 290,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 3884.23,
+        "quantidade": 63
+    },
+    {
+        "id": 291,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 2767.75,
+        "quantidade": 36
+    },
+    {
+        "id": 292,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1640.13,
+        "quantidade": 35
+    },
+    {
+        "id": 293,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 1186.45,
+        "quantidade": 88
+    },
+    {
+        "id": 294,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 3719.25,
+        "quantidade": 81
+    },
+    {
+        "id": 295,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 1905.73,
+        "quantidade": 23
+    },
+    {
+        "id": 296,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 1865.68,
+        "quantidade": 14
+    },
+    {
+        "id": 297,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 2150.59,
+        "quantidade": 82
+    },
+    {
+        "id": 298,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 2141.64,
+        "quantidade": 41
+    },
+    {
+        "id": 299,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1875.89,
+        "quantidade": 85
+    },
+    {
+        "id": 300,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 4828.7,
+        "quantidade": 62
+    },
+    {
+        "id": 301,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3568.5,
+        "quantidade": 94
+    },
+    {
+        "id": 302,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 3225.71,
+        "quantidade": 75
+    },
+    {
+        "id": 303,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 4108.13,
+        "quantidade": 10
+    },
+    {
+        "id": 304,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 1543.32,
+        "quantidade": 2
+    },
+    {
+        "id": 305,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 3372.26,
+        "quantidade": 23
+    },
+    {
+        "id": 306,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 4694.09,
+        "quantidade": 75
+    },
+    {
+        "id": 307,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 2213.45,
+        "quantidade": 78
+    },
+    {
+        "id": 308,
+        "nome": "Livro - Clean Code",
+        "preco": 3557.15,
+        "quantidade": 77
+    },
+    {
+        "id": 309,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 4745.56,
+        "quantidade": 39
+    },
+    {
+        "id": 310,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 3480.7,
+        "quantidade": 8
+    },
+    {
+        "id": 311,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 4572.59,
+        "quantidade": 13
+    },
+    {
+        "id": 312,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 777.57,
+        "quantidade": 87
+    },
+    {
+        "id": 313,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 2080.52,
+        "quantidade": 57
+    },
+    {
+        "id": 314,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 3750.0,
+        "quantidade": 65
+    },
+    {
+        "id": 315,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 1812.3,
+        "quantidade": 82
+    },
+    {
+        "id": 316,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 3994.44,
+        "quantidade": 73
+    },
+    {
+        "id": 317,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 339.07,
+        "quantidade": 51
+    },
+    {
+        "id": 318,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 600.94,
+        "quantidade": 87
+    },
+    {
+        "id": 319,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 824.21,
+        "quantidade": 67
+    },
+    {
+        "id": 320,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 818.66,
+        "quantidade": 22
+    },
+    {
+        "id": 321,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 2903.31,
+        "quantidade": 88
+    },
+    {
+        "id": 322,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 3365.41,
+        "quantidade": 87
+    },
+    {
+        "id": 323,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 1217.0,
+        "quantidade": 49
+    },
+    {
+        "id": 324,
+        "nome": "Cafeteira Elétrica",
+        "preco": 3625.11,
+        "quantidade": 59
+    },
+    {
+        "id": 325,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 3657.63,
+        "quantidade": 4
+    },
+    {
+        "id": 326,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 4485.73,
+        "quantidade": 78
+    },
+    {
+        "id": 327,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 338.09,
+        "quantidade": 43
+    },
+    {
+        "id": 328,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 2363.64,
+        "quantidade": 65
+    },
+    {
+        "id": 329,
+        "nome": "Livro - Clean Code",
+        "preco": 4343.76,
+        "quantidade": 95
+    },
+    {
+        "id": 330,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 1378.19,
+        "quantidade": 81
+    },
+    {
+        "id": 331,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 2362.77,
+        "quantidade": 16
+    },
+    {
+        "id": 332,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1166.01,
+        "quantidade": 71
+    },
+    {
+        "id": 333,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 4343.77,
+        "quantidade": 12
+    },
+    {
+        "id": 334,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 1708.33,
+        "quantidade": 91
+    },
+    {
+        "id": 335,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 2566.25,
+        "quantidade": 28
+    },
+    {
+        "id": 336,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 4883.46,
+        "quantidade": 97
+    },
+    {
+        "id": 337,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 2706.75,
+        "quantidade": 81
+    },
+    {
+        "id": 338,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 1388.81,
+        "quantidade": 9
+    },
+    {
+        "id": 339,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 1513.38,
+        "quantidade": 78
+    },
+    {
+        "id": 340,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 1969.85,
+        "quantidade": 68
+    },
+    {
+        "id": 341,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1100.41,
+        "quantidade": 79
+    },
+    {
+        "id": 342,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3708.44,
+        "quantidade": 56
+    },
+    {
+        "id": 343,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 881.75,
+        "quantidade": 90
+    },
+    {
+        "id": 344,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 468.15,
+        "quantidade": 38
+    },
+    {
+        "id": 345,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 459.04,
+        "quantidade": 2
+    },
+    {
+        "id": 346,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 1345.28,
+        "quantidade": 87
+    },
+    {
+        "id": 347,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 1313.91,
+        "quantidade": 20
+    },
+    {
+        "id": 348,
+        "nome": "Livro - Clean Code",
+        "preco": 3891.58,
+        "quantidade": 64
+    },
+    {
+        "id": 349,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 941.64,
+        "quantidade": 16
+    },
+    {
+        "id": 350,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 4934.98,
+        "quantidade": 54
+    },
+    {
+        "id": 351,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 2916.64,
+        "quantidade": 96
+    },
+    {
+        "id": 352,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 3272.63,
+        "quantidade": 58
+    },
+    {
+        "id": 353,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 2888.76,
+        "quantidade": 16
+    },
+    {
+        "id": 354,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 2338.48,
+        "quantidade": 96
+    },
+    {
+        "id": 355,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 4067.93,
+        "quantidade": 10
+    },
+    {
+        "id": 356,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 2397.62,
+        "quantidade": 24
+    },
+    {
+        "id": 357,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 3077.42,
+        "quantidade": 4
+    },
+    {
+        "id": 358,
+        "nome": "Livro - Clean Code",
+        "preco": 4450.64,
+        "quantidade": 66
+    },
+    {
+        "id": 359,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 562.89,
+        "quantidade": 24
+    },
+    {
+        "id": 360,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3655.74,
+        "quantidade": 33
+    },
+    {
+        "id": 361,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 465.83,
+        "quantidade": 3
+    },
+    {
+        "id": 362,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 2427.79,
+        "quantidade": 88
+    },
+    {
+        "id": 363,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 4246.23,
+        "quantidade": 64
+    },
+    {
+        "id": 364,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 4894.98,
+        "quantidade": 46
+    },
+    {
+        "id": 365,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 3639.49,
+        "quantidade": 17
+    },
+    {
+        "id": 366,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 194.37,
+        "quantidade": 65
+    },
+    {
+        "id": 367,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 2730.22,
+        "quantidade": 27
+    },
+    {
+        "id": 368,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 4428.36,
+        "quantidade": 99
+    },
+    {
+        "id": 369,
+        "nome": "Livro - Clean Code",
+        "preco": 3805.51,
+        "quantidade": 59
+    },
+    {
+        "id": 370,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1245.66,
+        "quantidade": 93
+    },
+    {
+        "id": 371,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 3073.79,
+        "quantidade": 69
+    },
+    {
+        "id": 372,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 4427.32,
+        "quantidade": 45
+    },
+    {
+        "id": 373,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 2462.32,
+        "quantidade": 39
+    },
+    {
+        "id": 374,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 3770.72,
+        "quantidade": 86
+    },
+    {
+        "id": 375,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 4391.84,
+        "quantidade": 67
+    },
+    {
+        "id": 376,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 3184.62,
+        "quantidade": 22
+    },
+    {
+        "id": 377,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3995.0,
+        "quantidade": 39
+    },
+    {
+        "id": 378,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 4788.62,
+        "quantidade": 69
+    },
+    {
+        "id": 379,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 3447.23,
+        "quantidade": 87
+    },
+    {
+        "id": 380,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 4291.64,
+        "quantidade": 50
+    },
+    {
+        "id": 381,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 315.53,
+        "quantidade": 76
+    },
+    {
+        "id": 382,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3614.42,
+        "quantidade": 54
+    },
+    {
+        "id": 383,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 3717.54,
+        "quantidade": 45
+    },
+    {
+        "id": 384,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 4412.2,
+        "quantidade": 79
+    },
+    {
+        "id": 385,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 3672.22,
+        "quantidade": 80
+    },
+    {
+        "id": 386,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 2568.87,
+        "quantidade": 68
+    },
+    {
+        "id": 387,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1552.15,
+        "quantidade": 26
+    },
+    {
+        "id": 388,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 3200.48,
+        "quantidade": 19
+    },
+    {
+        "id": 389,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 4109.75,
+        "quantidade": 43
+    },
+    {
+        "id": 390,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 834.54,
+        "quantidade": 96
+    },
+    {
+        "id": 391,
+        "nome": "Livro - Clean Code",
+        "preco": 4115.78,
+        "quantidade": 66
+    },
+    {
+        "id": 392,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 3713.28,
+        "quantidade": 79
+    },
+    {
+        "id": 393,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 3491.36,
+        "quantidade": 88
+    },
+    {
+        "id": 394,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 4136.04,
+        "quantidade": 13
+    },
+    {
+        "id": 395,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 92.86,
+        "quantidade": 17
+    },
+    {
+        "id": 396,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 2400.53,
+        "quantidade": 37
+    },
+    {
+        "id": 397,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 2396.46,
+        "quantidade": 7
+    },
+    {
+        "id": 398,
+        "nome": "Cafeteira Elétrica",
+        "preco": 1488.63,
+        "quantidade": 81
+    },
+    {
+        "id": 399,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 4332.25,
+        "quantidade": 22
+    },
+    {
+        "id": 400,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 3328.8,
+        "quantidade": 42
+    },
+    {
+        "id": 401,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 541.03,
+        "quantidade": 81
+    },
+    {
+        "id": 402,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1169.74,
+        "quantidade": 9
+    },
+    {
+        "id": 403,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 1287.76,
+        "quantidade": 20
+    },
+    {
+        "id": 404,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 317.99,
+        "quantidade": 25
+    },
+    {
+        "id": 405,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 2486.53,
+        "quantidade": 40
+    },
+    {
+        "id": 406,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 759.51,
+        "quantidade": 74
+    },
+    {
+        "id": 407,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3895.69,
+        "quantidade": 30
+    },
+    {
+        "id": 408,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 127.54,
+        "quantidade": 21
+    },
+    {
+        "id": 409,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 53.87,
+        "quantidade": 6
+    },
+    {
+        "id": 410,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1833.62,
+        "quantidade": 59
+    },
+    {
+        "id": 411,
+        "nome": "Livro - Clean Code",
+        "preco": 1932.89,
+        "quantidade": 83
+    },
+    {
+        "id": 412,
+        "nome": "Livro - Clean Code",
+        "preco": 4847.8,
+        "quantidade": 53
+    },
+    {
+        "id": 413,
+        "nome": "Cafeteira Elétrica",
+        "preco": 2735.58,
+        "quantidade": 86
+    },
+    {
+        "id": 414,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 1288.95,
+        "quantidade": 67
+    },
+    {
+        "id": 415,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 1071.18,
+        "quantidade": 37
+    },
+    {
+        "id": 416,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 1139.15,
+        "quantidade": 91
+    },
+    {
+        "id": 417,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 2412.85,
+        "quantidade": 48
+    },
+    {
+        "id": 418,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 242.27,
+        "quantidade": 94
+    },
+    {
+        "id": 419,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 2502.33,
+        "quantidade": 25
+    },
+    {
+        "id": 420,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 1302.48,
+        "quantidade": 8
+    },
+    {
+        "id": 421,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 355.02,
+        "quantidade": 84
+    },
+    {
+        "id": 422,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 1703.78,
+        "quantidade": 82
+    },
+    {
+        "id": 423,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 652.92,
+        "quantidade": 99
+    },
+    {
+        "id": 424,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 594.96,
+        "quantidade": 3
+    },
+    {
+        "id": 425,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 4855.68,
+        "quantidade": 80
+    },
+    {
+        "id": 426,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 590.42,
+        "quantidade": 55
+    },
+    {
+        "id": 427,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 3453.63,
+        "quantidade": 43
+    },
+    {
+        "id": 428,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 3205.87,
+        "quantidade": 94
+    },
+    {
+        "id": 429,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 1483.48,
+        "quantidade": 82
+    },
+    {
+        "id": 430,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1040.53,
+        "quantidade": 26
+    },
+    {
+        "id": 431,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 3023.43,
+        "quantidade": 7
+    },
+    {
+        "id": 432,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 216.13,
+        "quantidade": 23
+    },
+    {
+        "id": 433,
+        "nome": "Livro - Clean Code",
+        "preco": 3900.99,
+        "quantidade": 29
+    },
+    {
+        "id": 434,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 420.73,
+        "quantidade": 19
+    },
+    {
+        "id": 435,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 328.35,
+        "quantidade": 37
+    },
+    {
+        "id": 436,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 1163.79,
+        "quantidade": 50
+    },
+    {
+        "id": 437,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 4908.12,
+        "quantidade": 58
+    },
+    {
+        "id": 438,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 2428.13,
+        "quantidade": 48
+    },
+    {
+        "id": 439,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 1662.12,
+        "quantidade": 42
+    },
+    {
+        "id": 440,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 1544.64,
+        "quantidade": 50
+    },
+    {
+        "id": 441,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3101.29,
+        "quantidade": 87
+    },
+    {
+        "id": 442,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 410.49,
+        "quantidade": 20
+    },
+    {
+        "id": 443,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 3531.04,
+        "quantidade": 46
+    },
+    {
+        "id": 444,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 4534.73,
+        "quantidade": 93
+    },
+    {
+        "id": 445,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1320.46,
+        "quantidade": 55
+    },
+    {
+        "id": 446,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 1678.4,
+        "quantidade": 83
+    },
+    {
+        "id": 447,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 3877.54,
+        "quantidade": 20
+    },
+    {
+        "id": 448,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 4481.99,
+        "quantidade": 54
+    },
+    {
+        "id": 449,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 3472.67,
+        "quantidade": 97
+    },
+    {
+        "id": 450,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 3852.39,
+        "quantidade": 67
+    },
+    {
+        "id": 451,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 4148.33,
+        "quantidade": 15
+    },
+    {
+        "id": 452,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 2267.69,
+        "quantidade": 22
+    },
+    {
+        "id": 453,
+        "nome": "Cafeteira Elétrica",
+        "preco": 2096.7,
+        "quantidade": 56
+    },
+    {
+        "id": 454,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 4389.2,
+        "quantidade": 87
+    },
+    {
+        "id": 455,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 1901.15,
+        "quantidade": 61
+    },
+    {
+        "id": 456,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 3986.41,
+        "quantidade": 5
+    },
+    {
+        "id": 457,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 4133.49,
+        "quantidade": 80
+    },
+    {
+        "id": 458,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 2419.46,
+        "quantidade": 20
+    },
+    {
+        "id": 459,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 730.74,
+        "quantidade": 53
+    },
+    {
+        "id": 460,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 1901.75,
+        "quantidade": 42
+    },
+    {
+        "id": 461,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 3227.08,
+        "quantidade": 63
+    },
+    {
+        "id": 462,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 1193.69,
+        "quantidade": 69
+    },
+    {
+        "id": 463,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 1417.47,
+        "quantidade": 100
+    },
+    {
+        "id": 464,
+        "nome": "Cafeteira Elétrica",
+        "preco": 213.13,
+        "quantidade": 82
+    },
+    {
+        "id": 465,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 594.83,
+        "quantidade": 79
+    },
+    {
+        "id": 466,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 4569.95,
+        "quantidade": 90
+    },
+    {
+        "id": 467,
+        "nome": "Cafeteira Elétrica",
+        "preco": 3441.97,
+        "quantidade": 36
+    },
+    {
+        "id": 468,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 4936.54,
+        "quantidade": 50
+    },
+    {
+        "id": 469,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 4062.56,
+        "quantidade": 69
+    },
+    {
+        "id": 470,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 527.59,
+        "quantidade": 53
+    },
+    {
+        "id": 471,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 886.18,
+        "quantidade": 48
+    },
+    {
+        "id": 472,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 3717.82,
+        "quantidade": 78
+    },
+    {
+        "id": 473,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3142.22,
+        "quantidade": 67
+    },
+    {
+        "id": 474,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 2412.74,
+        "quantidade": 28
+    },
+    {
+        "id": 475,
+        "nome": "Livro - Clean Code",
+        "preco": 4530.25,
+        "quantidade": 69
+    },
+    {
+        "id": 476,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 3093.25,
+        "quantidade": 34
+    },
+    {
+        "id": 477,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 2611.37,
+        "quantidade": 2
+    },
+    {
+        "id": 478,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3425.3,
+        "quantidade": 57
+    },
+    {
+        "id": 479,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1403.94,
+        "quantidade": 24
+    },
+    {
+        "id": 480,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 2609.83,
+        "quantidade": 45
+    },
+    {
+        "id": 481,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 2034.73,
+        "quantidade": 89
+    },
+    {
+        "id": 482,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1831.51,
+        "quantidade": 51
+    },
+    {
+        "id": 483,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 3967.69,
+        "quantidade": 65
+    },
+    {
+        "id": 484,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 1237.56,
+        "quantidade": 92
+    },
+    {
+        "id": 485,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 123.28,
+        "quantidade": 66
+    },
+    {
+        "id": 486,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3854.42,
+        "quantidade": 85
+    },
+    {
+        "id": 487,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 2155.36,
+        "quantidade": 35
+    },
+    {
+        "id": 488,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 4799.57,
+        "quantidade": 15
+    },
+    {
+        "id": 489,
+        "nome": "Livro - Clean Code",
+        "preco": 814.03,
+        "quantidade": 79
+    },
+    {
+        "id": 490,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 2514.26,
+        "quantidade": 78
+    },
+    {
+        "id": 491,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 1096.73,
+        "quantidade": 67
+    },
+    {
+        "id": 492,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 2528.51,
+        "quantidade": 51
+    },
+    {
+        "id": 493,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 4578.1,
+        "quantidade": 93
+    },
+    {
+        "id": 494,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 1474.58,
+        "quantidade": 62
+    },
+    {
+        "id": 495,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 3869.13,
+        "quantidade": 30
+    },
+    {
+        "id": 496,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 1167.32,
+        "quantidade": 18
+    },
+    {
+        "id": 497,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 320.14,
+        "quantidade": 48
+    },
+    {
+        "id": 498,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 1362.78,
+        "quantidade": 99
+    },
+    {
+        "id": 499,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 77.52,
+        "quantidade": 94
+    },
+    {
+        "id": 500,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 1220.79,
+        "quantidade": 91
+    },
+    {
+        "id": 501,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 1769.18,
+        "quantidade": 87
+    },
+    {
+        "id": 502,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 3307.31,
+        "quantidade": 48
+    },
+    {
+        "id": 503,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 3883.62,
+        "quantidade": 2
+    },
+    {
+        "id": 504,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 2482.57,
+        "quantidade": 8
+    },
+    {
+        "id": 505,
+        "nome": "Livro - Clean Code",
+        "preco": 4206.47,
+        "quantidade": 99
+    },
+    {
+        "id": 506,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 2364.08,
+        "quantidade": 39
+    },
+    {
+        "id": 507,
+        "nome": "Livro - Clean Code",
+        "preco": 4030.02,
+        "quantidade": 95
+    },
+    {
+        "id": 508,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 2884.61,
+        "quantidade": 65
+    },
+    {
+        "id": 509,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 329.18,
+        "quantidade": 46
+    },
+    {
+        "id": 510,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 335.57,
+        "quantidade": 54
+    },
+    {
+        "id": 511,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 3353.09,
+        "quantidade": 34
+    },
+    {
+        "id": 512,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 70.47,
+        "quantidade": 93
+    },
+    {
+        "id": 513,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 3796.13,
+        "quantidade": 4
+    },
+    {
+        "id": 514,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 4465.67,
+        "quantidade": 11
+    },
+    {
+        "id": 515,
+        "nome": "Livro - Clean Code",
+        "preco": 140.33,
+        "quantidade": 35
+    },
+    {
+        "id": 516,
+        "nome": "Livro - Clean Code",
+        "preco": 1716.18,
+        "quantidade": 23
+    },
+    {
+        "id": 517,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 2676.95,
+        "quantidade": 49
+    },
+    {
+        "id": 518,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 4732.49,
+        "quantidade": 9
+    },
+    {
+        "id": 519,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 624.5,
+        "quantidade": 26
+    },
+    {
+        "id": 520,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 1246.99,
+        "quantidade": 41
+    },
+    {
+        "id": 521,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 1497.81,
+        "quantidade": 31
+    },
+    {
+        "id": 522,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 342.32,
+        "quantidade": 11
+    },
+    {
+        "id": 523,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 3811.24,
+        "quantidade": 80
+    },
+    {
+        "id": 524,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 4181.76,
+        "quantidade": 75
+    },
+    {
+        "id": 525,
+        "nome": "Livro - Clean Code",
+        "preco": 224.59,
+        "quantidade": 69
+    },
+    {
+        "id": 526,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 38.41,
+        "quantidade": 97
+    },
+    {
+        "id": 527,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 847.95,
+        "quantidade": 24
+    },
+    {
+        "id": 528,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 2645.0,
+        "quantidade": 65
+    },
+    {
+        "id": 529,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 2061.09,
+        "quantidade": 38
+    },
+    {
+        "id": 530,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 3857.23,
+        "quantidade": 35
+    },
+    {
+        "id": 531,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 821.41,
+        "quantidade": 87
+    },
+    {
+        "id": 532,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 4351.77,
+        "quantidade": 47
+    },
+    {
+        "id": 533,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 696.69,
+        "quantidade": 44
+    },
+    {
+        "id": 534,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1175.55,
+        "quantidade": 32
+    },
+    {
+        "id": 535,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 4187.03,
+        "quantidade": 61
+    },
+    {
+        "id": 536,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 1649.56,
+        "quantidade": 43
+    },
+    {
+        "id": 537,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 3684.23,
+        "quantidade": 10
+    },
+    {
+        "id": 538,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 1591.88,
+        "quantidade": 25
+    },
+    {
+        "id": 539,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 2704.48,
+        "quantidade": 87
+    },
+    {
+        "id": 540,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 4413.54,
+        "quantidade": 22
+    },
+    {
+        "id": 541,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 4751.79,
+        "quantidade": 16
+    },
+    {
+        "id": 542,
+        "nome": "Livro - Clean Code",
+        "preco": 2048.36,
+        "quantidade": 59
+    },
+    {
+        "id": 543,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 4062.52,
+        "quantidade": 68
+    },
+    {
+        "id": 544,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 4318.64,
+        "quantidade": 32
+    },
+    {
+        "id": 545,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 2135.68,
+        "quantidade": 46
+    },
+    {
+        "id": 546,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 1210.12,
+        "quantidade": 89
+    },
+    {
+        "id": 547,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1275.79,
+        "quantidade": 88
+    },
+    {
+        "id": 548,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 1715.88,
+        "quantidade": 39
+    },
+    {
+        "id": 549,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 781.37,
+        "quantidade": 81
+    },
+    {
+        "id": 550,
+        "nome": "Cafeteira Elétrica",
+        "preco": 4023.95,
+        "quantidade": 99
+    },
+    {
+        "id": 551,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 4383.83,
+        "quantidade": 81
+    },
+    {
+        "id": 552,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 2151.53,
+        "quantidade": 50
+    },
+    {
+        "id": 553,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 3070.12,
+        "quantidade": 91
+    },
+    {
+        "id": 554,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 4860.91,
+        "quantidade": 2
+    },
+    {
+        "id": 555,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 4947.23,
+        "quantidade": 23
+    },
+    {
+        "id": 556,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 3086.13,
+        "quantidade": 6
+    },
+    {
+        "id": 557,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 408.41,
+        "quantidade": 57
+    },
+    {
+        "id": 558,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 4958.38,
+        "quantidade": 16
+    },
+    {
+        "id": 559,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 3230.39,
+        "quantidade": 24
+    },
+    {
+        "id": 560,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 3858.62,
+        "quantidade": 82
+    },
+    {
+        "id": 561,
+        "nome": "Livro - Clean Code",
+        "preco": 284.79,
+        "quantidade": 42
+    },
+    {
+        "id": 562,
+        "nome": "Cafeteira Elétrica",
+        "preco": 1281.84,
+        "quantidade": 93
+    },
+    {
+        "id": 563,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 4416.68,
+        "quantidade": 91
+    },
+    {
+        "id": 564,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 3437.64,
+        "quantidade": 43
+    },
+    {
+        "id": 565,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 1787.35,
+        "quantidade": 58
+    },
+    {
+        "id": 566,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 934.37,
+        "quantidade": 66
+    },
+    {
+        "id": 567,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 3456.84,
+        "quantidade": 60
+    },
+    {
+        "id": 568,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 2549.12,
+        "quantidade": 38
+    },
+    {
+        "id": 569,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 3006.52,
+        "quantidade": 89
+    },
+    {
+        "id": 570,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 606.21,
+        "quantidade": 70
+    },
+    {
+        "id": 571,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 2810.69,
+        "quantidade": 9
+    },
+    {
+        "id": 572,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 940.18,
+        "quantidade": 9
+    },
+    {
+        "id": 573,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 4376.14,
+        "quantidade": 42
+    },
+    {
+        "id": 574,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 4199.18,
+        "quantidade": 69
+    },
+    {
+        "id": 575,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 204.31,
+        "quantidade": 64
+    },
+    {
+        "id": 576,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 1654.24,
+        "quantidade": 23
+    },
+    {
+        "id": 577,
+        "nome": "Livro - Clean Code",
+        "preco": 614.47,
+        "quantidade": 12
+    },
+    {
+        "id": 578,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 3097.04,
+        "quantidade": 20
+    },
+    {
+        "id": 579,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 290.04,
+        "quantidade": 30
+    },
+    {
+        "id": 580,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 3134.78,
+        "quantidade": 42
+    },
+    {
+        "id": 581,
+        "nome": "Cafeteira Elétrica",
+        "preco": 2807.8,
+        "quantidade": 90
+    },
+    {
+        "id": 582,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 354.25,
+        "quantidade": 80
+    },
+    {
+        "id": 583,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 278.16,
+        "quantidade": 97
+    },
+    {
+        "id": 584,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 3707.38,
+        "quantidade": 28
+    },
+    {
+        "id": 585,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 2376.86,
+        "quantidade": 75
+    },
+    {
+        "id": 586,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 3648.08,
+        "quantidade": 54
+    },
+    {
+        "id": 587,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 4865.77,
+        "quantidade": 26
+    },
+    {
+        "id": 588,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 762.22,
+        "quantidade": 31
+    },
+    {
+        "id": 589,
+        "nome": "Livro - Clean Code",
+        "preco": 1446.93,
+        "quantidade": 46
+    },
+    {
+        "id": 590,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 4801.19,
+        "quantidade": 100
+    },
+    {
+        "id": 591,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 695.49,
+        "quantidade": 3
+    },
+    {
+        "id": 592,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 4526.14,
+        "quantidade": 87
+    },
+    {
+        "id": 593,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 2322.48,
+        "quantidade": 49
+    },
+    {
+        "id": 594,
+        "nome": "Cafeteira Elétrica",
+        "preco": 2230.0,
+        "quantidade": 65
+    },
+    {
+        "id": 595,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 3576.41,
+        "quantidade": 93
+    },
+    {
+        "id": 596,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3862.73,
+        "quantidade": 77
+    },
+    {
+        "id": 597,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 3866.65,
+        "quantidade": 38
+    },
+    {
+        "id": 598,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 3329.5,
+        "quantidade": 46
+    },
+    {
+        "id": 599,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 1291.28,
+        "quantidade": 78
+    },
+    {
+        "id": 600,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1185.77,
+        "quantidade": 61
+    },
+    {
+        "id": 601,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 1588.0,
+        "quantidade": 45
+    },
+    {
+        "id": 602,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 663.39,
+        "quantidade": 18
+    },
+    {
+        "id": 603,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3836.26,
+        "quantidade": 4
+    },
+    {
+        "id": 604,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 4996.89,
+        "quantidade": 16
+    },
+    {
+        "id": 605,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 337.78,
+        "quantidade": 28
+    },
+    {
+        "id": 606,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 622.7,
+        "quantidade": 75
+    },
+    {
+        "id": 607,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 2849.06,
+        "quantidade": 16
+    },
+    {
+        "id": 608,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 2981.66,
+        "quantidade": 64
+    },
+    {
+        "id": 609,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 2878.98,
+        "quantidade": 16
+    },
+    {
+        "id": 610,
+        "nome": "Livro - Clean Code",
+        "preco": 4060.57,
+        "quantidade": 38
+    },
+    {
+        "id": 611,
+        "nome": "Cafeteira Elétrica",
+        "preco": 2399.09,
+        "quantidade": 48
+    },
+    {
+        "id": 612,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 1026.32,
+        "quantidade": 4
+    },
+    {
+        "id": 613,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 1044.57,
+        "quantidade": 31
+    },
+    {
+        "id": 614,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 4898.89,
+        "quantidade": 7
+    },
+    {
+        "id": 615,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 2961.72,
+        "quantidade": 99
+    },
+    {
+        "id": 616,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 838.53,
+        "quantidade": 97
+    },
+    {
+        "id": 617,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 990.94,
+        "quantidade": 83
+    },
+    {
+        "id": 618,
+        "nome": "Cafeteira Elétrica",
+        "preco": 2892.39,
+        "quantidade": 21
+    },
+    {
+        "id": 619,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1841.77,
+        "quantidade": 78
+    },
+    {
+        "id": 620,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 4295.87,
+        "quantidade": 22
+    },
+    {
+        "id": 621,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 1059.15,
+        "quantidade": 7
+    },
+    {
+        "id": 622,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 4179.27,
+        "quantidade": 20
+    },
+    {
+        "id": 623,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 3228.43,
+        "quantidade": 28
+    },
+    {
+        "id": 624,
+        "nome": "Livro - Clean Code",
+        "preco": 3965.12,
+        "quantidade": 60
+    },
+    {
+        "id": 625,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 3974.93,
+        "quantidade": 78
+    },
+    {
+        "id": 626,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 4676.03,
+        "quantidade": 53
+    },
+    {
+        "id": 627,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 3558.86,
+        "quantidade": 4
+    },
+    {
+        "id": 628,
+        "nome": "Cafeteira Elétrica",
+        "preco": 1128.25,
+        "quantidade": 72
+    },
+    {
+        "id": 629,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 3181.4,
+        "quantidade": 83
+    },
+    {
+        "id": 630,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 4166.18,
+        "quantidade": 31
+    },
+    {
+        "id": 631,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 218.99,
+        "quantidade": 58
+    },
+    {
+        "id": 632,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 1479.69,
+        "quantidade": 46
+    },
+    {
+        "id": 633,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 872.25,
+        "quantidade": 84
+    },
+    {
+        "id": 634,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 2874.75,
+        "quantidade": 97
+    },
+    {
+        "id": 635,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 1247.54,
+        "quantidade": 60
+    },
+    {
+        "id": 636,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 4360.58,
+        "quantidade": 80
+    },
+    {
+        "id": 637,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 1671.03,
+        "quantidade": 25
+    },
+    {
+        "id": 638,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 3605.1,
+        "quantidade": 2
+    },
+    {
+        "id": 639,
+        "nome": "Livro - Clean Code",
+        "preco": 2214.77,
+        "quantidade": 66
+    },
+    {
+        "id": 640,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 2304.45,
+        "quantidade": 27
+    },
+    {
+        "id": 641,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 1956.61,
+        "quantidade": 25
+    },
+    {
+        "id": 642,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 731.96,
+        "quantidade": 27
+    },
+    {
+        "id": 643,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 2123.37,
+        "quantidade": 61
+    },
+    {
+        "id": 644,
+        "nome": "Livro - Clean Code",
+        "preco": 3933.25,
+        "quantidade": 65
+    },
+    {
+        "id": 645,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 1444.84,
+        "quantidade": 24
+    },
+    {
+        "id": 646,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 3408.04,
+        "quantidade": 15
+    },
+    {
+        "id": 647,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 4438.69,
+        "quantidade": 40
+    },
+    {
+        "id": 648,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 2950.95,
+        "quantidade": 60
+    },
+    {
+        "id": 649,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 2343.25,
+        "quantidade": 41
+    },
+    {
+        "id": 650,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 3164.95,
+        "quantidade": 60
+    },
+    {
+        "id": 651,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 515.06,
+        "quantidade": 37
+    },
+    {
+        "id": 652,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 4689.14,
+        "quantidade": 24
+    },
+    {
+        "id": 653,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 1993.82,
+        "quantidade": 99
+    },
+    {
+        "id": 654,
+        "nome": "Cafeteira Elétrica",
+        "preco": 3365.56,
+        "quantidade": 17
+    },
+    {
+        "id": 655,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 4731.52,
+        "quantidade": 65
+    },
+    {
+        "id": 656,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 2220.95,
+        "quantidade": 50
+    },
+    {
+        "id": 657,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 3739.48,
+        "quantidade": 43
+    },
+    {
+        "id": 658,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 1036.93,
+        "quantidade": 11
+    },
+    {
+        "id": 659,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 2002.26,
+        "quantidade": 3
+    },
+    {
+        "id": 660,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 165.7,
+        "quantidade": 7
+    },
+    {
+        "id": 661,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 2968.9,
+        "quantidade": 48
+    },
+    {
+        "id": 662,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 3032.82,
+        "quantidade": 1
+    },
+    {
+        "id": 663,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 3175.36,
+        "quantidade": 20
+    },
+    {
+        "id": 664,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 3773.39,
+        "quantidade": 55
+    },
+    {
+        "id": 665,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 308.31,
+        "quantidade": 18
+    },
+    {
+        "id": 666,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 2857.89,
+        "quantidade": 78
+    },
+    {
+        "id": 667,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 4133.72,
+        "quantidade": 16
+    },
+    {
+        "id": 668,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 1962.04,
+        "quantidade": 85
+    },
+    {
+        "id": 669,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 4792.14,
+        "quantidade": 87
+    },
+    {
+        "id": 670,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 1998.06,
+        "quantidade": 38
+    },
+    {
+        "id": 671,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 2213.43,
+        "quantidade": 34
+    },
+    {
+        "id": 672,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 2431.85,
+        "quantidade": 33
+    },
+    {
+        "id": 673,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1325.49,
+        "quantidade": 74
+    },
+    {
+        "id": 674,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 369.33,
+        "quantidade": 18
+    },
+    {
+        "id": 675,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 53.64,
+        "quantidade": 56
+    },
+    {
+        "id": 676,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3258.98,
+        "quantidade": 15
+    },
+    {
+        "id": 677,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 4890.04,
+        "quantidade": 73
+    },
+    {
+        "id": 678,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 3177.8,
+        "quantidade": 29
+    },
+    {
+        "id": 679,
+        "nome": "Livro - Clean Code",
+        "preco": 4130.21,
+        "quantidade": 78
+    },
+    {
+        "id": 680,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 4780.79,
+        "quantidade": 83
+    },
+    {
+        "id": 681,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 4419.73,
+        "quantidade": 53
+    },
+    {
+        "id": 682,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 4302.01,
+        "quantidade": 78
+    },
+    {
+        "id": 683,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 811.2,
+        "quantidade": 1
+    },
+    {
+        "id": 684,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 2580.69,
+        "quantidade": 99
+    },
+    {
+        "id": 685,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 2685.38,
+        "quantidade": 86
+    },
+    {
+        "id": 686,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 1701.45,
+        "quantidade": 2
+    },
+    {
+        "id": 687,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 451.41,
+        "quantidade": 73
+    },
+    {
+        "id": 688,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 3576.82,
+        "quantidade": 23
+    },
+    {
+        "id": 689,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 4604.45,
+        "quantidade": 63
+    },
+    {
+        "id": 690,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 4333.82,
+        "quantidade": 95
+    },
+    {
+        "id": 691,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 2607.6,
+        "quantidade": 18
+    },
+    {
+        "id": 692,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1247.49,
+        "quantidade": 24
+    },
+    {
+        "id": 693,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 2543.73,
+        "quantidade": 74
+    },
+    {
+        "id": 694,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 4083.15,
+        "quantidade": 51
+    },
+    {
+        "id": 695,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 2438.92,
+        "quantidade": 58
+    },
+    {
+        "id": 696,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 4543.46,
+        "quantidade": 70
+    },
+    {
+        "id": 697,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 46.14,
+        "quantidade": 47
+    },
+    {
+        "id": 698,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 1586.88,
+        "quantidade": 83
+    },
+    {
+        "id": 699,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1852.71,
+        "quantidade": 95
+    },
+    {
+        "id": 700,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 4542.61,
+        "quantidade": 13
+    },
+    {
+        "id": 701,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1724.94,
+        "quantidade": 34
+    },
+    {
+        "id": 702,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 3839.59,
+        "quantidade": 91
+    },
+    {
+        "id": 703,
+        "nome": "Cafeteira Elétrica",
+        "preco": 3644.61,
+        "quantidade": 93
+    },
+    {
+        "id": 704,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1057.82,
+        "quantidade": 41
+    },
+    {
+        "id": 705,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 2046.31,
+        "quantidade": 24
+    },
+    {
+        "id": 706,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 2238.09,
+        "quantidade": 77
+    },
+    {
+        "id": 707,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 4440.19,
+        "quantidade": 66
+    },
+    {
+        "id": 708,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 3622.6,
+        "quantidade": 55
+    },
+    {
+        "id": 709,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3596.12,
+        "quantidade": 98
+    },
+    {
+        "id": 710,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 4951.93,
+        "quantidade": 38
+    },
+    {
+        "id": 711,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 3216.39,
+        "quantidade": 60
+    },
+    {
+        "id": 712,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 3419.53,
+        "quantidade": 19
+    },
+    {
+        "id": 713,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 3503.29,
+        "quantidade": 38
+    },
+    {
+        "id": 714,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 3690.45,
+        "quantidade": 49
+    },
+    {
+        "id": 715,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 2213.97,
+        "quantidade": 44
+    },
+    {
+        "id": 716,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 3375.82,
+        "quantidade": 42
+    },
+    {
+        "id": 717,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 3028.17,
+        "quantidade": 11
+    },
+    {
+        "id": 718,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 21.91,
+        "quantidade": 98
+    },
+    {
+        "id": 719,
+        "nome": "Cafeteira Elétrica",
+        "preco": 112.77,
+        "quantidade": 44
+    },
+    {
+        "id": 720,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 4280.89,
+        "quantidade": 38
+    },
+    {
+        "id": 721,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 2558.79,
+        "quantidade": 68
+    },
+    {
+        "id": 722,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 4382.24,
+        "quantidade": 11
+    },
+    {
+        "id": 723,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1610.22,
+        "quantidade": 8
+    },
+    {
+        "id": 724,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 288.4,
+        "quantidade": 30
+    },
+    {
+        "id": 725,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 172.24,
+        "quantidade": 63
+    },
+    {
+        "id": 726,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 3584.63,
+        "quantidade": 17
+    },
+    {
+        "id": 727,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 4138.2,
+        "quantidade": 65
+    },
+    {
+        "id": 728,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 2602.95,
+        "quantidade": 27
+    },
+    {
+        "id": 729,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 2057.36,
+        "quantidade": 80
+    },
+    {
+        "id": 730,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 3911.51,
+        "quantidade": 6
+    },
+    {
+        "id": 731,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 3505.35,
+        "quantidade": 7
+    },
+    {
+        "id": 732,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 2826.56,
+        "quantidade": 11
+    },
+    {
+        "id": 733,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 2415.97,
+        "quantidade": 62
+    },
+    {
+        "id": 734,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 3794.4,
+        "quantidade": 48
+    },
+    {
+        "id": 735,
+        "nome": "Cafeteira Elétrica",
+        "preco": 3195.05,
+        "quantidade": 100
+    },
+    {
+        "id": 736,
+        "nome": "Livro - Clean Code",
+        "preco": 3249.91,
+        "quantidade": 91
+    },
+    {
+        "id": 737,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 955.82,
+        "quantidade": 26
+    },
+    {
+        "id": 738,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3508.08,
+        "quantidade": 60
+    },
+    {
+        "id": 739,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 3398.73,
+        "quantidade": 50
+    },
+    {
+        "id": 740,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 604.52,
+        "quantidade": 1
+    },
+    {
+        "id": 741,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 3794.69,
+        "quantidade": 92
+    },
+    {
+        "id": 742,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 221.62,
+        "quantidade": 64
+    },
+    {
+        "id": 743,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 4028.03,
+        "quantidade": 48
+    },
+    {
+        "id": 744,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 663.6,
+        "quantidade": 67
+    },
+    {
+        "id": 745,
+        "nome": "Livro - Clean Code",
+        "preco": 499.21,
+        "quantidade": 8
+    },
+    {
+        "id": 746,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3657.6,
+        "quantidade": 38
+    },
+    {
+        "id": 747,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 3511.9,
+        "quantidade": 16
+    },
+    {
+        "id": 748,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 1185.59,
+        "quantidade": 55
+    },
+    {
+        "id": 749,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1928.28,
+        "quantidade": 3
+    },
+    {
+        "id": 750,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 543.47,
+        "quantidade": 26
+    },
+    {
+        "id": 751,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1634.56,
+        "quantidade": 69
+    },
+    {
+        "id": 752,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1063.26,
+        "quantidade": 65
+    },
+    {
+        "id": 753,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 2267.76,
+        "quantidade": 25
+    },
+    {
+        "id": 754,
+        "nome": "Livro - Clean Code",
+        "preco": 3344.44,
+        "quantidade": 30
+    },
+    {
+        "id": 755,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 4375.66,
+        "quantidade": 47
+    },
+    {
+        "id": 756,
+        "nome": "Cafeteira Elétrica",
+        "preco": 4990.08,
+        "quantidade": 6
+    },
+    {
+        "id": 757,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 479.36,
+        "quantidade": 74
+    },
+    {
+        "id": 758,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 850.81,
+        "quantidade": 55
+    },
+    {
+        "id": 759,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 164.85,
+        "quantidade": 72
+    },
+    {
+        "id": 760,
+        "nome": "Livro - Clean Code",
+        "preco": 3142.42,
+        "quantidade": 13
+    },
+    {
+        "id": 761,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 283.5,
+        "quantidade": 1
+    },
+    {
+        "id": 762,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 1197.14,
+        "quantidade": 89
+    },
+    {
+        "id": 763,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 4088.15,
+        "quantidade": 60
+    },
+    {
+        "id": 764,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 4115.97,
+        "quantidade": 61
+    },
+    {
+        "id": 765,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 934.94,
+        "quantidade": 39
+    },
+    {
+        "id": 766,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 1338.12,
+        "quantidade": 34
+    },
+    {
+        "id": 767,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 2115.81,
+        "quantidade": 100
+    },
+    {
+        "id": 768,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 1334.13,
+        "quantidade": 42
+    },
+    {
+        "id": 769,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 3380.96,
+        "quantidade": 40
+    },
+    {
+        "id": 770,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 833.72,
+        "quantidade": 57
+    },
+    {
+        "id": 771,
+        "nome": "Cafeteira Elétrica",
+        "preco": 282.9,
+        "quantidade": 83
+    },
+    {
+        "id": 772,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 3073.75,
+        "quantidade": 61
+    },
+    {
+        "id": 773,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 1997.84,
+        "quantidade": 95
+    },
+    {
+        "id": 774,
+        "nome": "Livro - Clean Code",
+        "preco": 1055.96,
+        "quantidade": 70
+    },
+    {
+        "id": 775,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 3585.81,
+        "quantidade": 80
+    },
+    {
+        "id": 776,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 2795.68,
+        "quantidade": 28
+    },
+    {
+        "id": 777,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 2288.98,
+        "quantidade": 31
+    },
+    {
+        "id": 778,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 3037.53,
+        "quantidade": 68
+    },
+    {
+        "id": 779,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 4988.45,
+        "quantidade": 44
+    },
+    {
+        "id": 780,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 2396.05,
+        "quantidade": 50
+    },
+    {
+        "id": 781,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 4065.39,
+        "quantidade": 13
+    },
+    {
+        "id": 782,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 2326.35,
+        "quantidade": 42
+    },
+    {
+        "id": 783,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 4116.56,
+        "quantidade": 13
+    },
+    {
+        "id": 784,
+        "nome": "Cafeteira Elétrica",
+        "preco": 2625.83,
+        "quantidade": 83
+    },
+    {
+        "id": 785,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 1196.59,
+        "quantidade": 35
+    },
+    {
+        "id": 786,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 4149.85,
+        "quantidade": 48
+    },
+    {
+        "id": 787,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 2015.44,
+        "quantidade": 33
+    },
+    {
+        "id": 788,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 2505.26,
+        "quantidade": 41
+    },
+    {
+        "id": 789,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 4318.15,
+        "quantidade": 95
+    },
+    {
+        "id": 790,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1336.4,
+        "quantidade": 97
+    },
+    {
+        "id": 791,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 4384.75,
+        "quantidade": 33
+    },
+    {
+        "id": 792,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 1956.03,
+        "quantidade": 67
+    },
+    {
+        "id": 793,
+        "nome": "Cafeteira Elétrica",
+        "preco": 2695.27,
+        "quantidade": 87
+    },
+    {
+        "id": 794,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 1087.21,
+        "quantidade": 62
+    },
+    {
+        "id": 795,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 2955.04,
+        "quantidade": 79
+    },
+    {
+        "id": 796,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 1273.68,
+        "quantidade": 12
+    },
+    {
+        "id": 797,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 3802.74,
+        "quantidade": 52
+    },
+    {
+        "id": 798,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1175.6,
+        "quantidade": 64
+    },
+    {
+        "id": 799,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 645.69,
+        "quantidade": 21
+    },
+    {
+        "id": 800,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 103.12,
+        "quantidade": 61
+    },
+    {
+        "id": 801,
+        "nome": "Cafeteira Elétrica",
+        "preco": 2968.26,
+        "quantidade": 13
+    },
+    {
+        "id": 802,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 4500.17,
+        "quantidade": 59
+    },
+    {
+        "id": 803,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 3409.89,
+        "quantidade": 28
+    },
+    {
+        "id": 804,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 4836.5,
+        "quantidade": 91
+    },
+    {
+        "id": 805,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 126.68,
+        "quantidade": 78
+    },
+    {
+        "id": 806,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 2789.87,
+        "quantidade": 97
+    },
+    {
+        "id": 807,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 1662.77,
+        "quantidade": 32
+    },
+    {
+        "id": 808,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 2659.35,
+        "quantidade": 66
+    },
+    {
+        "id": 809,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 2514.67,
+        "quantidade": 15
+    },
+    {
+        "id": 810,
+        "nome": "Livro - Clean Code",
+        "preco": 4056.43,
+        "quantidade": 49
+    },
+    {
+        "id": 811,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 2876.13,
+        "quantidade": 8
+    },
+    {
+        "id": 812,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 4636.23,
+        "quantidade": 78
+    },
+    {
+        "id": 813,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 4449.01,
+        "quantidade": 70
+    },
+    {
+        "id": 814,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 4416.4,
+        "quantidade": 27
+    },
+    {
+        "id": 815,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 1643.09,
+        "quantidade": 89
+    },
+    {
+        "id": 816,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 4074.45,
+        "quantidade": 77
+    },
+    {
+        "id": 817,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 2779.8,
+        "quantidade": 47
+    },
+    {
+        "id": 818,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 4725.19,
+        "quantidade": 49
+    },
+    {
+        "id": 819,
+        "nome": "Cafeteira Elétrica",
+        "preco": 1934.59,
+        "quantidade": 90
+    },
+    {
+        "id": 820,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 2999.07,
+        "quantidade": 13
+    },
+    {
+        "id": 821,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 3326.78,
+        "quantidade": 55
+    },
+    {
+        "id": 822,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 695.17,
+        "quantidade": 31
+    },
+    {
+        "id": 823,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 209.05,
+        "quantidade": 7
+    },
+    {
+        "id": 824,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 4513.82,
+        "quantidade": 72
+    },
+    {
+        "id": 825,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 3685.66,
+        "quantidade": 3
+    },
+    {
+        "id": 826,
+        "nome": "Livro - Clean Code",
+        "preco": 4365.74,
+        "quantidade": 48
+    },
+    {
+        "id": 827,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 318.43,
+        "quantidade": 59
+    },
+    {
+        "id": 828,
+        "nome": "Cafeteira Elétrica",
+        "preco": 3346.08,
+        "quantidade": 66
+    },
+    {
+        "id": 829,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 3754.13,
+        "quantidade": 66
+    },
+    {
+        "id": 830,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 1203.54,
+        "quantidade": 53
+    },
+    {
+        "id": 831,
+        "nome": "Livro - Clean Code",
+        "preco": 1952.38,
+        "quantidade": 1
+    },
+    {
+        "id": 832,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 3338.94,
+        "quantidade": 26
+    },
+    {
+        "id": 833,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 2454.1,
+        "quantidade": 19
+    },
+    {
+        "id": 834,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3153.03,
+        "quantidade": 95
+    },
+    {
+        "id": 835,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 1469.67,
+        "quantidade": 9
+    },
+    {
+        "id": 836,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 593.92,
+        "quantidade": 75
+    },
+    {
+        "id": 837,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 2221.46,
+        "quantidade": 64
+    },
+    {
+        "id": 838,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 4348.97,
+        "quantidade": 83
+    },
+    {
+        "id": 839,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 3232.74,
+        "quantidade": 54
+    },
+    {
+        "id": 840,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 1745.74,
+        "quantidade": 28
+    },
+    {
+        "id": 841,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 1010.74,
+        "quantidade": 90
+    },
+    {
+        "id": 842,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 2539.4,
+        "quantidade": 74
+    },
+    {
+        "id": 843,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 2210.18,
+        "quantidade": 15
+    },
+    {
+        "id": 844,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 3242.91,
+        "quantidade": 78
+    },
+    {
+        "id": 845,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 2505.9,
+        "quantidade": 2
+    },
+    {
+        "id": 846,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 4301.16,
+        "quantidade": 14
+    },
+    {
+        "id": 847,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 1543.07,
+        "quantidade": 84
+    },
+    {
+        "id": 848,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 2405.05,
+        "quantidade": 9
+    },
+    {
+        "id": 849,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 2449.19,
+        "quantidade": 25
+    },
+    {
+        "id": 850,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 325.37,
+        "quantidade": 77
+    },
+    {
+        "id": 851,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 472.35,
+        "quantidade": 38
+    },
+    {
+        "id": 852,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 1841.82,
+        "quantidade": 2
+    },
+    {
+        "id": 853,
+        "nome": "Cafeteira Elétrica",
+        "preco": 968.1,
+        "quantidade": 43
+    },
+    {
+        "id": 854,
+        "nome": "Cafeteira Elétrica",
+        "preco": 2763.19,
+        "quantidade": 7
+    },
+    {
+        "id": 855,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 4777.66,
+        "quantidade": 94
+    },
+    {
+        "id": 856,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 3938.93,
+        "quantidade": 65
+    },
+    {
+        "id": 857,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 1640.37,
+        "quantidade": 99
+    },
+    {
+        "id": 858,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 4258.24,
+        "quantidade": 18
+    },
+    {
+        "id": 859,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 95.48,
+        "quantidade": 31
+    },
+    {
+        "id": 860,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 3469.72,
+        "quantidade": 45
+    },
+    {
+        "id": 861,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 4399.91,
+        "quantidade": 59
+    },
+    {
+        "id": 862,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 1981.03,
+        "quantidade": 1
+    },
+    {
+        "id": 863,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 4558.03,
+        "quantidade": 88
+    },
+    {
+        "id": 864,
+        "nome": "Livro - Clean Code",
+        "preco": 42.93,
+        "quantidade": 70
+    },
+    {
+        "id": 865,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 2363.99,
+        "quantidade": 54
+    },
+    {
+        "id": 866,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 3815.81,
+        "quantidade": 79
+    },
+    {
+        "id": 867,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 3097.8,
+        "quantidade": 7
+    },
+    {
+        "id": 868,
+        "nome": "Cafeteira Elétrica",
+        "preco": 4047.02,
+        "quantidade": 35
+    },
+    {
+        "id": 869,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 1264.7,
+        "quantidade": 62
+    },
+    {
+        "id": 870,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 3682.98,
+        "quantidade": 90
+    },
+    {
+        "id": 871,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 2030.69,
+        "quantidade": 49
+    },
+    {
+        "id": 872,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 4296.4,
+        "quantidade": 17
+    },
+    {
+        "id": 873,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3004.73,
+        "quantidade": 63
+    },
+    {
+        "id": 874,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 738.46,
+        "quantidade": 87
+    },
+    {
+        "id": 875,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 2367.96,
+        "quantidade": 25
+    },
+    {
+        "id": 876,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 2985.37,
+        "quantidade": 47
+    },
+    {
+        "id": 877,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 764.21,
+        "quantidade": 70
+    },
+    {
+        "id": 878,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 528.09,
+        "quantidade": 28
+    },
+    {
+        "id": 879,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 786.98,
+        "quantidade": 71
+    },
+    {
+        "id": 880,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 900.08,
+        "quantidade": 95
+    },
+    {
+        "id": 881,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 1412.92,
+        "quantidade": 2
+    },
+    {
+        "id": 882,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 4252.9,
+        "quantidade": 38
+    },
+    {
+        "id": 883,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 3383.71,
+        "quantidade": 9
+    },
+    {
+        "id": 884,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3023.75,
+        "quantidade": 69
+    },
+    {
+        "id": 885,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 1579.84,
+        "quantidade": 90
+    },
+    {
+        "id": 886,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 3731.97,
+        "quantidade": 99
+    },
+    {
+        "id": 887,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3538.93,
+        "quantidade": 33
+    },
+    {
+        "id": 888,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 2076.9,
+        "quantidade": 38
+    },
+    {
+        "id": 889,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 246.56,
+        "quantidade": 82
+    },
+    {
+        "id": 890,
+        "nome": "Livro - Clean Code",
+        "preco": 3749.12,
+        "quantidade": 49
+    },
+    {
+        "id": 891,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 4263.83,
+        "quantidade": 80
+    },
+    {
+        "id": 892,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 2718.04,
+        "quantidade": 16
+    },
+    {
+        "id": 893,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 4061.48,
+        "quantidade": 26
+    },
+    {
+        "id": 894,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 1027.38,
+        "quantidade": 57
+    },
+    {
+        "id": 895,
+        "nome": "Cafeteira Elétrica",
+        "preco": 2107.09,
+        "quantidade": 45
+    },
+    {
+        "id": 896,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 2606.21,
+        "quantidade": 51
+    },
+    {
+        "id": 897,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 2527.17,
+        "quantidade": 7
+    },
+    {
+        "id": 898,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 4583.04,
+        "quantidade": 49
+    },
+    {
+        "id": 899,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 1768.8,
+        "quantidade": 7
+    },
+    {
+        "id": 900,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 1323.74,
+        "quantidade": 8
+    },
+    {
+        "id": 901,
+        "nome": "Livro - Clean Code",
+        "preco": 2552.93,
+        "quantidade": 17
+    },
+    {
+        "id": 902,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 811.83,
+        "quantidade": 60
+    },
+    {
+        "id": 903,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 1615.96,
+        "quantidade": 46
+    },
+    {
+        "id": 904,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 4993.84,
+        "quantidade": 10
+    },
+    {
+        "id": 905,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 1359.14,
+        "quantidade": 39
+    },
+    {
+        "id": 906,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 3325.25,
+        "quantidade": 85
+    },
+    {
+        "id": 907,
+        "nome": "Cafeteira Elétrica",
+        "preco": 4246.43,
+        "quantidade": 87
+    },
+    {
+        "id": 908,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 2411.9,
+        "quantidade": 45
+    },
+    {
+        "id": 909,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 3694.93,
+        "quantidade": 50
+    },
+    {
+        "id": 910,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 1976.39,
+        "quantidade": 81
+    },
+    {
+        "id": 911,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 4691.94,
+        "quantidade": 9
+    },
+    {
+        "id": 912,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 4659.28,
+        "quantidade": 59
+    },
+    {
+        "id": 913,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 2982.6,
+        "quantidade": 27
+    },
+    {
+        "id": 914,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 177.4,
+        "quantidade": 45
+    },
+    {
+        "id": 915,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 651.65,
+        "quantidade": 56
+    },
+    {
+        "id": 916,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 749.97,
+        "quantidade": 18
+    },
+    {
+        "id": 917,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 4165.28,
+        "quantidade": 82
+    },
+    {
+        "id": 918,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 3835.0,
+        "quantidade": 11
+    },
+    {
+        "id": 919,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 3249.05,
+        "quantidade": 5
+    },
+    {
+        "id": 920,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 1518.06,
+        "quantidade": 76
+    },
+    {
+        "id": 921,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 1474.41,
+        "quantidade": 20
+    },
+    {
+        "id": 922,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 2379.09,
+        "quantidade": 45
+    },
+    {
+        "id": 923,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 3229.85,
+        "quantidade": 63
+    },
+    {
+        "id": 924,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 2724.94,
+        "quantidade": 57
+    },
+    {
+        "id": 925,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 2938.76,
+        "quantidade": 17
+    },
+    {
+        "id": 926,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 1500.63,
+        "quantidade": 21
+    },
+    {
+        "id": 927,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1660.97,
+        "quantidade": 68
+    },
+    {
+        "id": 928,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 1516.54,
+        "quantidade": 19
+    },
+    {
+        "id": 929,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 2683.26,
+        "quantidade": 100
+    },
+    {
+        "id": 930,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 2779.27,
+        "quantidade": 8
+    },
+    {
+        "id": 931,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 3761.6,
+        "quantidade": 85
+    },
+    {
+        "id": 932,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 239.37,
+        "quantidade": 70
+    },
+    {
+        "id": 933,
+        "nome": "Cafeteira Elétrica",
+        "preco": 266.58,
+        "quantidade": 33
+    },
+    {
+        "id": 934,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 588.59,
+        "quantidade": 47
+    },
+    {
+        "id": 935,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 906.53,
+        "quantidade": 95
+    },
+    {
+        "id": 936,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 345.01,
+        "quantidade": 30
+    },
+    {
+        "id": 937,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 168.81,
+        "quantidade": 38
+    },
+    {
+        "id": 938,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 2934.81,
+        "quantidade": 80
+    },
+    {
+        "id": 939,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 4788.16,
+        "quantidade": 25
+    },
+    {
+        "id": 940,
+        "nome": "Livro - Clean Code",
+        "preco": 333.32,
+        "quantidade": 75
+    },
+    {
+        "id": 941,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 2297.05,
+        "quantidade": 29
+    },
+    {
+        "id": 942,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 4343.04,
+        "quantidade": 24
+    },
+    {
+        "id": 943,
+        "nome": "Cafeteira Elétrica",
+        "preco": 2367.66,
+        "quantidade": 84
+    },
+    {
+        "id": 944,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 3246.33,
+        "quantidade": 50
+    },
+    {
+        "id": 945,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 1447.9,
+        "quantidade": 96
+    },
+    {
+        "id": 946,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 3053.95,
+        "quantidade": 9
+    },
+    {
+        "id": 947,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 2741.39,
+        "quantidade": 55
+    },
+    {
+        "id": 948,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 3152.69,
+        "quantidade": 10
+    },
+    {
+        "id": 949,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 2371.85,
+        "quantidade": 82
+    },
+    {
+        "id": 950,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 4196.63,
+        "quantidade": 47
+    },
+    {
+        "id": 951,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 45.07,
+        "quantidade": 11
+    },
+    {
+        "id": 952,
+        "nome": "Cafeteira Elétrica",
+        "preco": 2238.03,
+        "quantidade": 76
+    },
+    {
+        "id": 953,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 4273.22,
+        "quantidade": 67
+    },
+    {
+        "id": 954,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1332.59,
+        "quantidade": 64
+    },
+    {
+        "id": 955,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 4462.58,
+        "quantidade": 70
+    },
+    {
+        "id": 956,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 613.15,
+        "quantidade": 83
+    },
+    {
+        "id": 957,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 320.58,
+        "quantidade": 26
+    },
+    {
+        "id": 958,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 4987.81,
+        "quantidade": 90
+    },
+    {
+        "id": 959,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 4175.25,
+        "quantidade": 52
+    },
+    {
+        "id": 960,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 3893.18,
+        "quantidade": 81
+    },
+    {
+        "id": 961,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 1652.7,
+        "quantidade": 3
+    },
+    {
+        "id": 962,
+        "nome": "Livro - Clean Code",
+        "preco": 4357.21,
+        "quantidade": 73
+    },
+    {
+        "id": 963,
+        "nome": "Caixa de Som Bluetooth JBL GO 3",
+        "preco": 3202.66,
+        "quantidade": 88
+    },
+    {
+        "id": 964,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 3504.7,
+        "quantidade": 94
+    },
+    {
+        "id": 965,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1690.73,
+        "quantidade": 92
+    },
+    {
+        "id": 966,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 762.22,
+        "quantidade": 53
+    },
+    {
+        "id": 967,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 2830.32,
+        "quantidade": 55
+    },
+    {
+        "id": 968,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 4345.17,
+        "quantidade": 8
+    },
+    {
+        "id": 969,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3274.85,
+        "quantidade": 57
+    },
+    {
+        "id": 970,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 4247.46,
+        "quantidade": 26
+    },
+    {
+        "id": 971,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 2751.18,
+        "quantidade": 68
+    },
+    {
+        "id": 972,
+        "nome": "Carregador Portátil Xiaomi",
+        "preco": 2915.97,
+        "quantidade": 47
+    },
+    {
+        "id": 973,
+        "nome": "Pen Drive SanDisk 64GB",
+        "preco": 3303.81,
+        "quantidade": 13
+    },
+    {
+        "id": 974,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 2195.98,
+        "quantidade": 63
+    },
+    {
+        "id": 975,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 1160.12,
+        "quantidade": 66
+    },
+    {
+        "id": 976,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 4349.85,
+        "quantidade": 33
+    },
+    {
+        "id": 977,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 3751.92,
+        "quantidade": 99
+    },
+    {
+        "id": 978,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 1464.63,
+        "quantidade": 90
+    },
+    {
+        "id": 979,
+        "nome": "Cafeteira Elétrica",
+        "preco": 2574.24,
+        "quantidade": 91
+    },
+    {
+        "id": 980,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 3096.4,
+        "quantidade": 79
+    },
+    {
+        "id": 981,
+        "nome": "Geladeira Brastemp 375L",
+        "preco": 234.75,
+        "quantidade": 77
+    },
+    {
+        "id": 982,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 3826.13,
+        "quantidade": 32
+    },
+    {
+        "id": 983,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 3087.57,
+        "quantidade": 35
+    },
+    {
+        "id": 984,
+        "nome": "Impressora HP DeskJet Ink Advantage",
+        "preco": 4816.08,
+        "quantidade": 91
+    },
+    {
+        "id": 985,
+        "nome": "Ventilador Mondial 40cm",
+        "preco": 437.43,
+        "quantidade": 12
+    },
+    {
+        "id": 986,
+        "nome": "Monitor LG 24'' Full HD",
+        "preco": 2874.81,
+        "quantidade": 44
+    },
+    {
+        "id": 987,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 3260.09,
+        "quantidade": 76
+    },
+    {
+        "id": 988,
+        "nome": "Tênis Esportivo Nike Revolution",
+        "preco": 4862.7,
+        "quantidade": 24
+    },
+    {
+        "id": 989,
+        "nome": "Smartphone Samsung Galaxy A54",
+        "preco": 3203.04,
+        "quantidade": 18
+    },
+    {
+        "id": 990,
+        "nome": "Camiseta Polo Masculina",
+        "preco": 2854.62,
+        "quantidade": 32
+    },
+    {
+        "id": 991,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 1347.48,
+        "quantidade": 75
+    },
+    {
+        "id": 992,
+        "nome": "Aspirador de Pó Vertical",
+        "preco": 3834.03,
+        "quantidade": 24
+    },
+    {
+        "id": 993,
+        "nome": "Fone de Ouvido Bluetooth JBL",
+        "preco": 3480.19,
+        "quantidade": 40
+    },
+    {
+        "id": 994,
+        "nome": "Notebook Lenovo Ideapad 3",
+        "preco": 2254.27,
+        "quantidade": 31
+    },
+    {
+        "id": 995,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 3792.92,
+        "quantidade": 59
+    },
+    {
+        "id": 996,
+        "nome": "Mouse Gamer Redragon Cobra",
+        "preco": 634.34,
+        "quantidade": 73
+    },
+    {
+        "id": 997,
+        "nome": "Tablet Samsung Galaxy Tab A7",
+        "preco": 629.5,
+        "quantidade": 38
+    },
+    {
+        "id": 998,
+        "nome": "Cafeteira Elétrica Mondial",
+        "preco": 1959.53,
+        "quantidade": 43
+    },
+    {
+        "id": 999,
+        "nome": "Smartwatch Amazfit Bip U",
+        "preco": 2649.04,
+        "quantidade": 56
+    },
+    {
+        "id": 1000,
+        "nome": "Teclado Mecânico Logitech",
+        "preco": 2148.62,
+        "quantidade": 48
+    }
+]
