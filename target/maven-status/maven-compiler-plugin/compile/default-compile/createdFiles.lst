@@ -1,10 +1,12 @@
 com\mycompany\api\de\cadastro\ProductService.class
-com\mycompany\api\de\cadastro\JakartaRestConfiguration.class
-com\mycompany\api\de\cadastro\resources\JakartaEE11Resource.class
-com\mycompany\api\de\cadastro\DemoApplication.class
 com\mycompany\api\de\cadastro\ProductManagedBean$1.class
-com\mycompany\api\de\cadastro\ProductResource.class
 com\mycompany\api\de\cadastro\ProductBean.class
 com\mycompany\api\de\cadastro\Product.class
 com\mycompany\api\de\cadastro\ProductManagedBean$2.class
 com\mycompany\api\de\cadastro\ProductManagedBean.class
+com\mycompany\api\de\cadastro\JakartaRestConfiguration.class
+com\mycompany\api\de\cadastro\resources\JakartaEE11Resource.class
+com\mycompany\api\de\cadastro\UserBean.class
+com\mycompany\api\de\cadastro\DemoApplication.class
+com\mycompany\api\de\cadastro\ProductResource.class
+com\mycompany\api\de\cadastro\User.class

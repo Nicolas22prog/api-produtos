@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:jsf="http://xmlns.jcp.org/jsf"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      >
+    
+<h:head>
+    <title>Produtos</title>
+</h:head>    
+<h:body>       
+    <h1>Cadastro de Produto</h1>      
+    <h:form>
+        <h:panelGrid columns="2" border="1">
+            Nome: <h:inputText value="#{productManagedBean.product.nome}" />
+            Preço: <h:inputText value="#{productManagedBean.product.preco}" />
+            Quantidade: <h:inputText value="#{productManagedBean.product.quantidade}"/>
+            <h:commandButton value="Salvar" action="#{productManagedBean.salvar}"/>
+            
+        </h:panelGrid>
+    </h:form>
+    <h2> Gerenciamento do banco de dados</h2>
+    <h:form>
+        <h:panelGrid columns="2" border="1">
+            Importar produtos: <h:commandButton value="Importar produtos" action="#{productManagedBean.importarJson}"/>
+            Deletar todos os produtos: <h:commandButton value="Deletar todos os produtos" action="#{productManagedBean.deletarTodos}"/>
+            
+        </h:panelGrid>
+    </h:form>
+    
+    <h2>Listar Produtos</h2>
+     <h:form>
+         <p:dataTable value="#{productManagedBean.lazyModel}" var="p"
+                      paginator="true" rows="150" lazy="true">
+            <p:column>
+                <f:facet name="header">ID</f:facet>
+                #{p.id}
+            </p:column>
+            <p:column>
+                <f:facet name="header">Nome</f:facet>
+                #{p.nome}
+            </p:column>            
+            <p:column>
+                <f:facet name="header">Preço</f:facet>
+                #{p.preco}
+            </p:column>
+            <p:column>
+                <f:facet name="header">Quantidade</f:facet>
+                #{p.quantidade}
+            </p:column>
+            <p:column>
+                <f:facet name="header">Ações</f:facet>
+                <h:commandButton value="Excluir" action="#{productManagedBean.remover(p)}"
+                                 onclick="returnconfirm('Tem certeza que deseja excluir?');"/>
+                <h:commandButton value="Editar" action="#{productManagedBean.prepararEdicao(p.id)}"/>
+                
+            </p:column>
+        </p:dataTable>
+        </h:form>
+</h:body>
+</html>
