@@ -17,6 +17,7 @@ public class ProductBean {
     @PersistenceContext
     private EntityManager em;
     
+    
     public List<Product> getProdutos() {
         return em.createQuery("SELECT p FROM Product p ORDER BY p.id", Product.class)
                 .setMaxResults(150)
@@ -24,6 +25,7 @@ public class ProductBean {
                 .getResultList();        
     }
 
+    
     public void salvar(Product product) {
         em.persist(product);
     }
