@@ -5,6 +5,8 @@ package com.mycompany.api.de.cadastro;
 
 import jakarta.ejb.EJB;
 import jakarta.enterprise.context.SessionScoped;
+import jakarta.faces.application.FacesMessage;
+import jakarta.faces.context.FacesContext;
 import jakarta.inject.Named;
 import java.io.Serializable;
 import java.util.List;
@@ -72,6 +74,7 @@ public class ProductManagedBean implements Serializable {
     
     public void importarJson() {
         productBean.importarJson();
+        FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Importação iniciada em segundo plano."));
     }
     
     public void deletarTodos () {

@@ -4,6 +4,7 @@
 package com.mycompany.api.de.cadastro;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
+import jakarta.ejb.Asynchronous;
 import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
@@ -42,6 +43,7 @@ public class ProductBean {
     return em.find(Product.class, id);
 }
     
+    @Asynchronous
     public void importarJson() {
         Gson gson = new Gson();
         
@@ -77,7 +79,7 @@ public class ProductBean {
            } else {
             System.out.println("Arquivo json nao encontrado no classpath.");
         }
-    }
+    }  
     
     public List<Product> buscarPaginado (int primeiro, int tamanhoPagina) {
         return em.createQuery("SELECT p FROM Product p", Product.class)
