@@ -4,7 +4,6 @@
 package com.mycompany.api.de.cadastro;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
-import jakarta.ejb.Asynchronous;
 import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
@@ -17,9 +16,12 @@ public class ProductBean {
 
     @PersistenceContext
     private EntityManager em;
-
+    
     public List<Product> getProdutos() {
-        return em.createQuery("SELECT p FROM Product p", Product.class).getResultList();
+        return em.createQuery("SELECT p FROM Product p ORDER BY p.id", Product.class)
+                .setMaxResults(150)
+                .setFirstResult(0)
+                .getResultList();        
     }
 
     public void salvar(Product product) {
@@ -43,12 +45,10 @@ public class ProductBean {
     return em.find(Product.class, id);
 }
     
-    @Asynchronous
-    public void importarJson() {
+    
+    public void importarJson() {       
         Gson gson = new Gson();
-        
-        InputStream input = getClass().getClassLoader().getResourceAsStream("produtos.json");
-        
+        InputStream input = getClass().getClassLoader().getResourceAsStream("produtos.json");        
         if (input != null) {
            try (JsonReader jsonReader = new JsonReader(new InputStreamReader(input, "UTF-8"))) { 
                jsonReader.beginArray();
@@ -79,9 +79,10 @@ public class ProductBean {
            } else {
             System.out.println("Arquivo json nao encontrado no classpath.");
         }
-    }  
+    }
     
-    public List<Product> buscarPaginado (int primeiro, int tamanhoPagina) {
+    public List<Product> buscarPaginado (int paginaAtual, int tamanhoPagina) {
+        int primeiro = (paginaAtual ) * tamanhoPagina;
         return em.createQuery("SELECT p FROM Product p", Product.class)
                 .setFirstResult(primeiro)
                 .setMaxResults(tamanhoPagina)
@@ -90,6 +91,11 @@ public class ProductBean {
     
     public int totalProdutos() {
         return ((Number) em.createQuery("SELECT COUNT(p) FROM Product p").getSingleResult()).intValue();
+    }
+    
+    public int getTotalPaginas (int tamanhoPagina) {
+        int totalProdutos = totalProdutos();
+        return (int) Math.ceil((double) totalProdutos/ tamanhoPagina);
     }
     
 }
