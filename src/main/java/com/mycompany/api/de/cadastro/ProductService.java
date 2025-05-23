@@ -23,10 +23,5 @@ public class ProductService {
     
     public void salvar(Product product) {
         em.persist(product);
-    }
-
-    
-    
-    
-   
+    }   
 }

@@ -33,7 +33,7 @@
     <h2>Listar Produtos</h2>
      <h:form>
          <p:dataTable value="#{productManagedBean.lazyModel}" var="p"
-                      paginator="true" rows="150" lazy="true">
+                      paginator="true" rows="150" lazy="true" id="produtos">
             <p:column>
                 <f:facet name="header">ID</f:facet>
                 #{p.id}
@@ -57,6 +57,7 @@
                 <h:commandButton value="Editar" action="#{productManagedBean.prepararEdicao(p.id)}"/>
                 
             </p:column>
+
         </p:dataTable>
         </h:form>
 </h:body>

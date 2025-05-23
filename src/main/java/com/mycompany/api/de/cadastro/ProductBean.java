@@ -2,6 +2,7 @@
  * 
  */
 package com.mycompany.api.de.cadastro;
+
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 import jakarta.ejb.Stateless;
@@ -9,6 +10,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+
 import java.util.List;
 
 @Stateless
@@ -49,7 +51,7 @@ public class ProductBean {
     
     
     public void importarJson() {       
-        Gson gson = new Gson();
+       Gson gson = new Gson();
         InputStream input = getClass().getClassLoader().getResourceAsStream("produtos.json");        
         if (input != null) {
            try (JsonReader jsonReader = new JsonReader(new InputStreamReader(input, "UTF-8"))) { 
@@ -59,6 +61,8 @@ public class ProductBean {
                int count = 0;
                
                while(jsonReader.hasNext()) {
+                   
+                   
                    Product produto = gson.fromJson(jsonReader, Product.class);
                            em.persist(produto);
                            count++;
@@ -67,28 +71,33 @@ public class ProductBean {
                                em.flush();
                                em.clear();
                            }
-               }
-               
+               }               
                             if(count % batchSize != 0 ) {
                                 em.flush();
                                 em.clear();
                             }
+                            
+                            
                jsonReader.endArray();
                
+              
             } catch (Exception e) {
                 e.printStackTrace();
            }
            } else {
             System.out.println("Arquivo json nao encontrado no classpath.");
         }
-    }
     
-    public List<Product> buscarPaginado (int paginaAtual, int tamanhoPagina) {
-        int primeiro = (paginaAtual ) * tamanhoPagina;
+    }
+  
+    
+    public List<Product> buscarPaginado (int offset, int tamanhoPagina) {
+        
         return em.createQuery("SELECT p FROM Product p", Product.class)
-                .setFirstResult(primeiro)
+                .setFirstResult(offset)
                 .setMaxResults(tamanhoPagina)
                 .getResultList();
+        
     }
     
     public int totalProdutos() {
@@ -99,5 +108,8 @@ public class ProductBean {
         int totalProdutos = totalProdutos();
         return (int) Math.ceil((double) totalProdutos/ tamanhoPagina);
     }
+ 
+    
+    
     
 }

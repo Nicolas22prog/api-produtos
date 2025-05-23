@@ -3,9 +3,11 @@ package com.mycompany.api.de.cadastro;
 /* Gerenciador dos métodos da interface JSF2 */
 
 import jakarta.annotation.PostConstruct;
+import jakarta.annotation.Resource;
 import jakarta.ejb.EJB;
 import jakarta.enterprise.context.SessionScoped;
 import jakarta.inject.Named;
+import jakarta.enterprise.concurrent.ManagedExecutorService;
 
 import java.io.Serializable;
 import java.util.List;
@@ -21,11 +23,15 @@ public class ProductManagedBean implements Serializable {
 
     @EJB
     private ProductBean productBean;
-
+    
+    @Resource
+    private ManagedExecutorService es;
+    
     private Product product = new Product();
     private Product produtoSelecionado;
 
     private LazyDataModel<Product> lazyModel;
+    
 
     // Getter para o LazyDataModel (usado no XHTML)
     public LazyDataModel<Product> getLazyModel() {
@@ -93,14 +99,15 @@ public class ProductManagedBean implements Serializable {
     }
 
     public void importarJson() {
-        new Thread() {
-            public void run () {
-                productBean.importarJson();
-            }
-        }.start();
+        es.execute(()-> {
+            productBean.importarJson(); 
+        });
+        
+                  
     }
 
     public void deletarTodos() {
         productBean.deleteAll();
     }
-}
+
+ }
