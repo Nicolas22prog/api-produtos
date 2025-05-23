@@ -8,13 +8,14 @@ Este projeto é uma API RESTful desenvolvida em Java com Jakarta EE, utilizando 
   - Criação de novos usuários
   - Listagem de usuários existentes
   - Atualização de informações de usuários
-  - Remoção de usuários
+  
 
 - **Gerenciamento de Produtos:**
   - Adição de novos produtos
   - Listagem de produtos disponíveis
   - Atualização de detalhes dos produtos
   - Exclusão de produtos
+  - Importação de produtos
 
 ## Estrutura do Banco de Dados
 
