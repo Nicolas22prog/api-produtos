@@ -75,7 +75,7 @@ public class ProductManagedBean implements Serializable {
     public String salvar() {
         productBean.salvar(product);
         product = new Product();
-        return "index?faces-redirect=true";
+        return "produtos?faces-redirect=true";
     }
 
     public void remover(Product product) {
@@ -95,7 +95,7 @@ public class ProductManagedBean implements Serializable {
     public String salvarEdicao() {
         productBean.editar(produtoSelecionado);
         produtoSelecionado = null;
-        return "index?faces-redirect=true";
+        return "produtos?faces-redirect=true";
     }
 
     public void importarJson() {
@@ -105,9 +105,7 @@ public class ProductManagedBean implements Serializable {
         
                   
     }
-
     public void deletarTodos() {
-        productBean.deleteAll();
+            productBean.deleteAll();       
     }
-
  }
