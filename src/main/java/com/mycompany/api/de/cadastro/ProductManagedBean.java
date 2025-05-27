@@ -102,9 +102,16 @@ public class ProductManagedBean implements Serializable {
         es.execute(()-> {
             productBean.importarJson(); 
         });
-        
-                  
+                 
     }
+    
+    public void importarCsv() {
+        es.execute(()->{
+                productBean.importarCsv();
+        }
+        );
+    }
+    
     public void deletarTodos() {
             productBean.deleteAll();       
     }

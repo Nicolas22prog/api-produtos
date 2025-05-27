@@ -1,6 +1,4 @@
-/*Metodos para a interface do JSF2 
- * 
- */
+
 package com.mycompany.api.de.cadastro;
 
 import com.google.gson.Gson;
@@ -8,6 +6,8 @@ import com.google.gson.stream.JsonReader;
 import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
+import com.opencsv.CSVReader;
+
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
@@ -48,8 +48,50 @@ public class ProductBean {
     public Product buscarPorId(Long id) {
     return em.find(Product.class, id);
 }
+public void importarCsv() {
+    InputStream input = getClass().getClassLoader().getResourceAsStream("produtos.csv");
     
-    
+    if (input != null) {
+        try( 
+            InputStreamReader isr = new InputStreamReader(input, "UTF-8");
+            CSVReader csvReader = new CSVReader(isr);
+                ){
+            String [] linha;
+            int count = 0;
+            int batchSize = 100;
+            
+            csvReader.readNext();
+            
+            while ((linha = csvReader.readNext()) != null) {
+                Product produto = new Product();
+                produto.setNome(linha[1]);
+                produto.setPreco(Double.parseDouble(linha[2]));
+                produto.setQuantidade(Integer.parseInt(linha[3]));
+                
+                em.persist(produto);
+                count++;
+                
+                if (count %batchSize == 0) {
+                    em.flush();
+                    em.clear();
+                }
+            }
+             
+            if (count % batchSize != 0 ) {
+                em.flush();
+                em.clear();
+            }
+            System.out.println("Importação concluida com" + count + "produtos.");
+}catch (Exception e) {
+            e.printStackTrace();
+        }
+               
+            
+        } else {
+        System.out.println("Arquivo CSV nao encontrado no classpath");
+    }
+    }
+   
     public void importarJson() {       
        Gson gson = new Gson();
         InputStream input = getClass().getClassLoader().getResourceAsStream("produtos.json");        
@@ -78,7 +120,9 @@ public class ProductBean {
                             }
                             
                             
+               
                jsonReader.endArray();
+                      
                
               
             } catch (Exception e) {

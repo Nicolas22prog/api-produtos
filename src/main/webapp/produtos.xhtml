@@ -24,7 +24,8 @@
     <h2> Gerenciamento do banco de dados</h2>
     <h:form>
         <h:panelGrid columns="2" border="1">
-            Importar produtos: <h:commandButton value="Importar produtos" action="#{productManagedBean.importarJson}"/>
+            Importar produtos: <h:commandButton value="Importar produtos Json" action="#{productManagedBean.importarJson}"/>
+            Importar produtos: <h:commandButton value="Importar produtos Csv" action="#{productManagedBean.importarCsv}"/>
             Deletar todos os produtos: <h:commandButton value="Deletar todos os produtos" action="#{productManagedBean.deletarTodos}"/>
             
         </h:panelGrid>
