@@ -8,6 +8,7 @@ import jakarta.ejb.EJB;
 import jakarta.enterprise.context.SessionScoped;
 import jakarta.inject.Named;
 import jakarta.enterprise.concurrent.ManagedExecutorService;
+import jakarta.inject.Inject;
 
 import java.io.Serializable;
 import java.util.List;
@@ -23,6 +24,9 @@ public class ProductManagedBean implements Serializable {
 
     @EJB
     private ProductBean productBean;
+    
+    @Inject
+    private UserBean userBean;
     
     @Resource
     private ManagedExecutorService es;
@@ -45,11 +49,11 @@ public class ProductManagedBean implements Serializable {
             @Override
             public List<Product> load(int first, int pageSize, Map<String, SortMeta> sortBy, Map<String, FilterMeta> filterBy) {
                 setRowCount(count(filterBy));
-                return productBean.buscarPaginado(first, pageSize);
+                return productBean.buscarPaginado(userBean.getUserLogado(), first, pageSize);
             }
             @Override
             public int count(Map<String, FilterMeta>filterBy) {
-                return productBean.totalProdutos();
+                return productBean.totalProdutos(userBean.getUserLogado());
             }
         };
     }
@@ -72,11 +76,21 @@ public class ProductManagedBean implements Serializable {
     }
 
     // Ações
-    public String salvar() {
-        productBean.salvar(product);
+    public void salvar() {
+        User userLogado = userBean.getUserLogado();
+        if (userLogado != null) {
+        productBean.salvar(product, userLogado);
         product = new Product();
-        return "produtos?faces-redirect=true";
+        
+    }else {
+            System.out.println("Usuario nao logado");
+        }
+        User userGerenciado = productBean.findUserById(userLogado.getId());
+        
+        productBean.salvar(product, userGerenciado);
+        product = new Product();
     }
+    
 
     public void remover(Product product) {
         productBean.remover(product);
@@ -99,17 +113,25 @@ public class ProductManagedBean implements Serializable {
     }
 
     public void importarJson() {
+        User userLogado = userBean.getUserLogado();
+        if (userLogado != null) {
+            
         es.execute(()-> {
-            productBean.importarJson(); 
+            productBean.importarJson(userLogado); 
         });
+        }
                  
     }
     
     public void importarCsv() {
+        User userLogado = userBean.getUserLogado();
+        if(userLogado != null) {
+            
         es.execute(()->{
-                productBean.importarCsv();
+                productBean.importarCsv(userLogado);
         }
         );
+        }
     }
     
     public void deletarTodos() {

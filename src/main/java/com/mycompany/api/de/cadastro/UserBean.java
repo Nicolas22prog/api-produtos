@@ -4,18 +4,20 @@
  */
 package com.mycompany.api.de.cadastro;
 
-import jakarta.enterprise.context.RequestScoped;
+import jakarta.enterprise.context.SessionScoped;
 import jakarta.inject.Named;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.NoResultException;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
+import java.io.Serializable;
 
 @Named
-@RequestScoped
-public class UserBean {
+@SessionScoped
+public class UserBean implements Serializable {
    
     private User user = new User();
+    private User userLogado;
     
     @PersistenceContext
     private EntityManager em;
@@ -28,6 +30,14 @@ public class UserBean {
         this.user=user;
     }
     
+    public User getUserLogado() {
+        return userLogado;
+    }
+    
+    public void setUserLogado (User userLogado) {
+        this.userLogado=userLogado;
+    }
+    
    
     public String entrar() {
         try{
@@ -36,6 +46,8 @@ public class UserBean {
                     .setParameter("usuario", user.getUsuario())
                     .setParameter("senha", user.getSenha())
                     .getSingleResult();
+            this.userLogado = u;
+            
             return "produtos.xhtml?faces-redirect=true";
         } catch(Exception e) {
             return "erroLogin.xhtml?faces-redirect=true";

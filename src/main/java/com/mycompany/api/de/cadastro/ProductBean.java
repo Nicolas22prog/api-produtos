@@ -7,6 +7,8 @@ import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import com.opencsv.CSVReader;
+import jakarta.inject.Inject;
+
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -16,19 +18,25 @@ import java.util.List;
 @Stateless
 public class ProductBean {
 
+    @Inject
+    private User user;
+    
     @PersistenceContext
     private EntityManager em;
     
     
     public List<Product> getProdutos() {
-        return em.createQuery("SELECT p FROM Product p ORDER BY p.id", Product.class)
+        return em.createQuery("SELECT p FROM Product p WHERE p.user = :user ORDER BY p.id", Product.class)
+                .setParameter("user", user)
                 .setMaxResults(150)
                 .setFirstResult(0)
                 .getResultList();        
     }
 
     
-    public void salvar(Product product) {
+    public void salvar(Product product, User user) {
+
+        product.setUser(user);
         em.persist(product);
     }
     
@@ -48,7 +56,13 @@ public class ProductBean {
     public Product buscarPorId(Long id) {
     return em.find(Product.class, id);
 }
-public void importarCsv() {
+public void importarCsv(User user) {
+    User userGerenciado = em.find(User.class, user.getId());
+    
+    if ( userGerenciado == null) {
+        throw new IllegalArgumentException("Usuario nao cadastrado");
+    }
+    
     InputStream input = getClass().getClassLoader().getResourceAsStream("produtos.csv");
     
     if (input != null) {
@@ -58,7 +72,7 @@ public void importarCsv() {
                 ){
             String [] linha;
             int count = 0;
-            int batchSize = 100;
+            int batchSize = 1000;
             
             csvReader.readNext();
             
@@ -68,6 +82,9 @@ public void importarCsv() {
                 produto.setPreco(Double.parseDouble(linha[2]));
                 produto.setQuantidade(Integer.parseInt(linha[3]));
                 
+                
+                
+                produto.setUser(userGerenciado);
                 em.persist(produto);
                 count++;
                 
@@ -92,20 +109,25 @@ public void importarCsv() {
     }
     }
    
-    public void importarJson() {       
+    public void importarJson(User user) {   
+        User userGerenciado = em.find(User.class, user.getId());
+        if ( userGerenciado == null) {
+        throw new IllegalArgumentException("Usuario nao cadastrado");
+    }
        Gson gson = new Gson();
         InputStream input = getClass().getClassLoader().getResourceAsStream("produtos.json");        
         if (input != null) {
            try (JsonReader jsonReader = new JsonReader(new InputStreamReader(input, "UTF-8"))) { 
                jsonReader.beginArray();
                
-               int batchSize = 100;
+               int batchSize = 1000;
                int count = 0;
                
                while(jsonReader.hasNext()) {
                    
                    
                    Product produto = gson.fromJson(jsonReader, Product.class);
+                            produto.setUser(userGerenciado);
                            em.persist(produto);
                            count++;
                            
@@ -118,7 +140,6 @@ public void importarCsv() {
                                 em.flush();
                                 em.clear();
                             }
-                            
                             
                
                jsonReader.endArray();
@@ -135,22 +156,29 @@ public void importarCsv() {
     }
   
     
-    public List<Product> buscarPaginado (int offset, int tamanhoPagina) {
+    public List<Product> buscarPaginado (User user ,int offset, int tamanhoPagina) {
         
-        return em.createQuery("SELECT p FROM Product p", Product.class)
+        return em.createQuery("SELECT p FROM Product p WHERE p.user = :user", Product.class)
+                .setParameter("user", user)
                 .setFirstResult(offset)
                 .setMaxResults(tamanhoPagina)
                 .getResultList();
         
     }
     
-    public int totalProdutos() {
-        return ((Number) em.createQuery("SELECT COUNT(p) FROM Product p").getSingleResult()).intValue();
+    public int totalProdutos(User user) {
+        return ((Number) em.createQuery("SELECT COUNT(p) FROM Product p WHERE p.user = :user")
+                .setParameter("user",user)
+                .getSingleResult()).intValue();
     }
     
-    public int getTotalPaginas (int tamanhoPagina) {
-        int totalProdutos = totalProdutos();
+    public int getTotalPaginas (User user, int tamanhoPagina) {
+        int totalProdutos = totalProdutos(user);
         return (int) Math.ceil((double) totalProdutos/ tamanhoPagina);
+    }
+
+   public User findUserById(Long id) {
+        return em.find(User.class, id);
     }
  
     
