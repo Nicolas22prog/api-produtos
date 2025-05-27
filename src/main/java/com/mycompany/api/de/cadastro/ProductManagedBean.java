@@ -5,9 +5,9 @@ package com.mycompany.api.de.cadastro;
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.Resource;
 import jakarta.ejb.EJB;
-import jakarta.enterprise.context.SessionScoped;
 import jakarta.inject.Named;
 import jakarta.enterprise.concurrent.ManagedExecutorService;
+import jakarta.faces.view.ViewScoped;
 import jakarta.inject.Inject;
 
 import java.io.Serializable;
@@ -19,7 +19,7 @@ import org.primefaces.model.LazyDataModel;
 import org.primefaces.model.SortMeta;
 
 @Named
-@SessionScoped
+@ViewScoped
 public class ProductManagedBean implements Serializable {
 
     @EJB
@@ -112,36 +112,51 @@ public class ProductManagedBean implements Serializable {
         return "produtos?faces-redirect=true";
     }
 
+    private boolean importando = false;
     public void importarJson() {
+        if (importando) return;
         User userLogado = userBean.getUserLogado();
         if (userLogado != null) {
+            importando = true;
             
         es.execute(()-> {
+            try{
             productBean.importarJson(userLogado); 
-        });
+        }finally {
+                importando = false;
+            }});
         }
                  
     }
     
     public void importarCsv() {
+        if (importando) return;
+        
         User userLogado = userBean.getUserLogado();
         if(userLogado != null) {
-            
+            importando = true;
         es.execute(()->{
+            try{
                 productBean.importarCsv(userLogado);
-        }
+        } finally{
+                importando = false;}}
         );
         }
     }
     
     public void deletarTodos() {
+        if (importando) return;
         User userLogado = userBean.getUserLogado();
         if (userLogado != null){
+            importando = true;
+        
             es.execute(()-> {
+            try{
             productBean.deleteAll(userLogado);       
                 
-            });
-            
-        }
+            }finally{
+                importando = false;
+            }
+            });            
     }
- }
+ }}

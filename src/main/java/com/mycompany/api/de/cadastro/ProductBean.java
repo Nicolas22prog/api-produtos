@@ -45,6 +45,7 @@ public class ProductBean {
       em.remove(p);
     }
     public int deleteAll(User user) {
+        System.out.println("deleteAll() foi chamado");
         return em.createQuery("DELETE FROM Product p WHERE p.user = :user",Product.class).setParameter("user", user).executeUpdate();
     }
     
@@ -57,6 +58,7 @@ public class ProductBean {
     return em.find(Product.class, id);
 }
 public void importarCsv(User user) {
+    System.out.println("importarCsv() foi chamado");
     User userGerenciado = em.find(User.class, user.getId());
     
     if ( userGerenciado == null) {
@@ -109,7 +111,8 @@ public void importarCsv(User user) {
     }
     }
    
-    public void importarJson(User user) {   
+    public void importarJson(User user) {
+         System.out.println("importarJson() foi chamado");
         User userGerenciado = em.find(User.class, user.getId());
         if ( userGerenciado == null) {
         throw new IllegalArgumentException("Usuario nao cadastrado");
@@ -140,7 +143,7 @@ public void importarCsv(User user) {
                                 em.flush();
                                 em.clear();
                             }
-                            
+                            System.out.println("Importação concluida com" + count + "produtos.");
                
                jsonReader.endArray();
                       
