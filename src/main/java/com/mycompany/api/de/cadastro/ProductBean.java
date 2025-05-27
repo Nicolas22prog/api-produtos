@@ -74,7 +74,7 @@ public void importarCsv(User user) {
                 ){
             String [] linha;
             int count = 0;
-            int batchSize = 1000;
+            int batchSize = 10000;
             
             csvReader.readNext();
             
@@ -123,7 +123,7 @@ public void importarCsv(User user) {
            try (JsonReader jsonReader = new JsonReader(new InputStreamReader(input, "UTF-8"))) { 
                jsonReader.beginArray();
                
-               int batchSize = 1000;
+               int batchSize = 10000;
                int count = 0;
                
                while(jsonReader.hasNext()) {
