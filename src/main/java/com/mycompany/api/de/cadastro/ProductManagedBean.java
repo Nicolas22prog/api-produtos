@@ -135,6 +135,13 @@ public class ProductManagedBean implements Serializable {
     }
     
     public void deletarTodos() {
-            productBean.deleteAll();       
+        User userLogado = userBean.getUserLogado();
+        if (userLogado != null){
+            es.execute(()-> {
+            productBean.deleteAll(userLogado);       
+                
+            });
+            
+        }
     }
  }

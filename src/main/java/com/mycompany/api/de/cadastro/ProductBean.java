@@ -44,8 +44,8 @@ public class ProductBean {
       Product p = em.merge(product);
       em.remove(p);
     }
-    public int deleteAll() {
-        return em.createQuery("DELETE FROM Product p",Product.class).executeUpdate();
+    public int deleteAll(User user) {
+        return em.createQuery("DELETE FROM Product p WHERE p.user = :user",Product.class).setParameter("user", user).executeUpdate();
     }
     
     public void editar ( Product produto) {
