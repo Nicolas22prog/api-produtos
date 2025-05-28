@@ -125,10 +125,12 @@ public void importarCsv(User user) {
                
                int batchSize = 10000;
                int count = 0;
+               int ignorados = 0;
                
                while(jsonReader.hasNext()) {
                    
-                   
+                   try{
+                       
                    Product produto = gson.fromJson(jsonReader, Product.class);
                             produto.setUser(userGerenciado);
                            em.persist(produto);
@@ -138,6 +140,11 @@ public void importarCsv(User user) {
                                em.flush();
                                em.clear();
                            }
+                   } catch (Exception e) {
+                       ignorados++;
+                        System.out.println("Produto ignorado por erro de formatação: " + e.getMessage());
+                        jsonReader.skipValue();
+                   }
                }               
                             if(count % batchSize != 0 ) {
                                 em.flush();
@@ -185,6 +192,6 @@ public void importarCsv(User user) {
     }
  
     
-    
+   
     
 }

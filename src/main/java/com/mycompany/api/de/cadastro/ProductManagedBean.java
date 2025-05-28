@@ -159,4 +159,10 @@ public class ProductManagedBean implements Serializable {
             }
             });            
     }
- }}
+ }
+
+ public String voltar() {
+        return "index.xhtml?faces-redirect=true";
+    }
+
+}
