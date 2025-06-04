@@ -157,7 +157,8 @@ public class ProductManagedBean implements Serializable {
             }finally{
                 importando = false;
             }
-            });            
+            });
+            System.out.println("deleteAll encerrado!");            
     }
  }
 

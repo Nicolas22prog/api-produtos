@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nome": "SSD NVMe 1TB",
-    "preço": 3617.18,
+    "preco": 3617.18,
     "quantidade": 35
   },
   {
@@ -12,7 +12,7 @@
     "quantidade": 96
   },
   {
-    "id": 3,
+    "Id": 3,
     "nome": "Headset HyperX Cloud",
     "preco": 2236.24,
     "quantidade": 21

@@ -75,10 +75,12 @@ public void importarCsv(User user) {
             String [] linha;
             int count = 0;
             int batchSize = 10000;
-            
+            int ignorados = 0;
             csvReader.readNext();
             
             while ((linha = csvReader.readNext()) != null) {
+                try{
+                    
                 Product produto = new Product();
                 produto.setNome(linha[1]);
                 produto.setPreco(Double.parseDouble(linha[2]));
@@ -93,6 +95,11 @@ public void importarCsv(User user) {
                 if (count %batchSize == 0) {
                     em.flush();
                     em.clear();
+                }
+                } catch (Exception e) {
+                     ignorados++;
+                    System.out.println("Produto ignorado por erro de formatação: " + e.getMessage());
+                    csvReader.readNext();
                 }
             }
              
